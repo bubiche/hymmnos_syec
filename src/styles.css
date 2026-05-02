@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Hymmnos";
+  src: url("/src/assets/fonts/hymmnos.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ar Ciela";
+  src: url("/src/assets/fonts/ar-ciela.ttf") format("truetype");
+  font-display: swap;
+}
+
+@theme {
+  --font-hymmnos: "Hymmnos", serif;
+  --font-ar-ciela: "Ar Ciela", serif;
+}

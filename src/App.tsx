@@ -6,6 +6,7 @@
 import { useEffect, useMemo, useState } from "preact/hooks";
 
 import corpusJson from "../data/corpus.json";
+import { AboutHymmnos } from "./components/AboutHymmnos.tsx";
 import { AnnotatedView } from "./components/AnnotatedView.tsx";
 import { BinasphereView } from "./components/BinasphereView.tsx";
 import { LyricsInput } from "./components/LyricsInput.tsx";
@@ -48,10 +49,19 @@ export function App() {
 
   return (
     <main class="mx-auto max-w-3xl px-6 py-12 space-y-6">
-      <header class="space-y-1">
-        <h1 class="text-3xl font-semibold">syec</h1>
-        <p class="text-stone-400">annotated Hymmnos lyrics reader</p>
+      <header class="flex items-center gap-3">
+        <img
+          src={`${import.meta.env.BASE_URL}favicon.png`}
+          alt=""
+          class="h-10 w-auto"
+        />
+        <div class="space-y-0.5">
+          <h1 class="text-3xl font-semibold leading-none">syec</h1>
+          <p class="text-sm text-stone-400">annotated Hymmnos lyrics reader</p>
+        </div>
       </header>
+
+      <AboutHymmnos />
 
       <LyricsInput value={input} onInput={setInput} />
 

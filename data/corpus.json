@@ -1,0 +1,5619 @@
+{
+  "entries": [
+    {
+      "word": "0",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "0",
+      "description": "In binary, 0 means \"off\"."
+    },
+    {
+      "word": "1",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "1",
+      "description": "In binary, 1 means \"on\"."
+    },
+    {
+      "word": "10",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "10",
+      "description": "20: \"ジデ:jide\", 30: \"ドリデ:doride\", 45: \"フェフデヴィラ:fefudevira\""
+    },
+    {
+      "word": "100",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "100",
+      "description": "200: \"ジ�?�ー:jihe\", 300: \"ドリ�?�ー:dorihe\", 405: \"フェフ�?�ーヴィラ:fefuhevira\""
+    },
+    {
+      "word": "1000",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "1000",
+      "description": "2000: \"ジキィ:jikii\", 3000: \"ドリキィ:dorikii\", 4005: \"フェフキィヴィラ:fefukiivira\""
+    },
+    {
+      "word": "10000",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "10000",
+      "description": "20000: \"ジミィ:jimii\", 30000: \"ドリミィ:dorimii\", 40005: \"フェフミィヴィラ:fefumiivira\""
+    },
+    {
+      "word": "2",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "2"
+    },
+    {
+      "word": "3",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "3"
+    },
+    {
+      "word": "4",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "4"
+    },
+    {
+      "word": "5",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "5"
+    },
+    {
+      "word": "6",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "6"
+    },
+    {
+      "word": "7",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "7"
+    },
+    {
+      "word": "8",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "8"
+    },
+    {
+      "word": "9",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "9"
+    },
+    {
+      "word": "<-x",
+      "dialect": "pastalia",
+      "partOfSpeech": "language construct",
+      "meaning": "(anaphor indicator)",
+      "description": "Also allows back-references to verb phrases."
+    },
+    {
+      "word": "a.u.k.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "be"
+    },
+    {
+      "word": "accrroad",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "give"
+    },
+    {
+      "word": "acra",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "certainly, surely",
+      "description": "May indicate strong possibilities."
+    },
+    {
+      "word": "ADDR",
+      "dialect": "unknown",
+      "partOfSpeech": "language construct",
+      "meaning": "address designation",
+      "unofficial": true,
+      "description": "Used only in server-control commands"
+    },
+    {
+      "word": "adyya",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "today"
+    },
+    {
+      "word": "afezeria",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "bless"
+    },
+    {
+      "word": "ag",
+      "dialect": "pastalia",
+      "partOfSpeech": "conjunction",
+      "meaning": "and"
+    },
+    {
+      "word": "aiph",
+      "dialect": "central",
+      "partOfSpeech": "conjunction",
+      "meaning": "if"
+    },
+    {
+      "word": "aje",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "new"
+    },
+    {
+      "word": "akata",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "story"
+    },
+    {
+      "word": "ale",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "sound"
+    },
+    {
+      "word": "alroen",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "proof, evidence",
+      "unofficial": true
+    },
+    {
+      "word": "alroetsue",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "compensatory, redemptive"
+    },
+    {
+      "word": "ammue",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "sound waves"
+    },
+    {
+      "word": "amyure",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "repentance, penitence",
+      "unofficial": true
+    },
+    {
+      "word": "an",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "together, sharing"
+    },
+    {
+      "word": "anw",
+      "dialect": "metafalss",
+      "partOfSpeech": "preposition",
+      "meaning": "(direct object identifier)",
+      "description": "When spoken, the more melodically appropriate of the two pronunciations should be used."
+    },
+    {
+      "word": "apea",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "blessed, bathed in happiness"
+    },
+    {
+      "word": "ar",
+      "dialect": "central",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "only, unique"
+    },
+    {
+      "word": "araus",
+      "dialect": "unknown",
+      "partOfSpeech": "noun, verb",
+      "meaning": "exchange",
+      "unofficial": true
+    },
+    {
+      "word": "arhou",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "hope, wish"
+    },
+    {
+      "word": "arrya",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "arrow"
+    },
+    {
+      "word": "arsye",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "share"
+    },
+    {
+      "word": "art",
+      "dialect": "central",
+      "partOfSpeech": "adverb, preposition",
+      "meaning": "because of, due to"
+    },
+    {
+      "word": "asyar",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "feelings",
+      "unofficial": true
+    },
+    {
+      "word": "aterra",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "accept, receive",
+      "unofficial": true
+    },
+    {
+      "word": "ates",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "accept, receive",
+      "unofficial": true
+    },
+    {
+      "word": "au",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "sad"
+    },
+    {
+      "word": "aulla",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "open, disclose, reveal"
+    },
+    {
+      "word": "ayulsa",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "eternity, permanence"
+    },
+    {
+      "word": "balduo",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "dark, hidden"
+    },
+    {
+      "word": "bale",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "sphere"
+    },
+    {
+      "word": "bansh",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "(forcefully) open (something)"
+    },
+    {
+      "word": "basilic",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "big snake, (also: gun, artillery)",
+      "description": "May indicate the act of pointing a weapon."
+    },
+    {
+      "word": "bautifal",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "beautiful, pretty"
+    },
+    {
+      "word": "beja",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "tarnish, defile"
+    },
+    {
+      "word": "beng",
+      "dialect": "central",
+      "partOfSpeech": "adverb, noun",
+      "meaning": "before, previous, past",
+      "description": "Use \"folten\" to indicate relative position."
+    },
+    {
+      "word": "bengnuih",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "evening, dusk"
+    },
+    {
+      "word": "bexm",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "arrive, visit (time of event)",
+      "description": "May be used to indicate events, such as \"dawn broke\"."
+    },
+    {
+      "word": "biron",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "continue"
+    },
+    {
+      "word": "bister",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "beast, monster"
+    },
+    {
+      "word": "boches",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "mouth, hole"
+    },
+    {
+      "word": "boh",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "tremendous, supernatural"
+    },
+    {
+      "word": "brinch",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "branch, limb"
+    },
+    {
+      "word": "briyante",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "cries of delight, words of joy"
+    },
+    {
+      "word": "briyua",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "happy, joyful",
+      "unofficial": true
+    },
+    {
+      "word": "burle",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "blue",
+      "description": "Conveys meaning equivalent to \"inexperienced\" or \"greenhorn\"."
+    },
+    {
+      "word": "byui",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "large, grand",
+      "unofficial": true
+    },
+    {
+      "word": "c.z.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "transform"
+    },
+    {
+      "word": "calamila",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "catastrophe",
+      "unofficial": true
+    },
+    {
+      "word": "cause",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "curse, torment"
+    },
+    {
+      "word": "cecet",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "shield"
+    },
+    {
+      "word": "ceku",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "friend, partner, compatriot"
+    },
+    {
+      "word": "celetille",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "vivid, clean, clear, lovely"
+    },
+    {
+      "word": "celle",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "heavenly"
+    },
+    {
+      "word": "cenjue",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "change, transform",
+      "description": "While \"chs\" reflects a change, this indicates a desire for change."
+    },
+    {
+      "word": "cerchio",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "possibility, probability"
+    },
+    {
+      "word": "cest",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "truth, reality"
+    },
+    {
+      "word": "cexm",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "arrive, visit (person)",
+      "description": "May be used to indicate a meeting between people."
+    },
+    {
+      "word": "chanti",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "praise, reward"
+    },
+    {
+      "word": "chiess",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "kiss"
+    },
+    {
+      "word": "ChronicleKey",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - ChronicleKey",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "chs",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "become",
+      "description": "Among other things, this indicates physical changes."
+    },
+    {
+      "word": "chsee",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "transform into",
+      "description": "This indicates a fundamental change in shape or form."
+    },
+    {
+      "word": "chyet",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "chosen, special"
+    },
+    {
+      "word": "cia",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "sky"
+    },
+    {
+      "word": "ciel",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "world, sky"
+    },
+    {
+      "word": "ciellenne",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "air, the skies"
+    },
+    {
+      "word": "cietta",
+      "dialect": "unknown",
+      "partOfSpeech": "conjunction",
+      "meaning": "because, but, although",
+      "unofficial": true
+    },
+    {
+      "word": "clalliss",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "colour"
+    },
+    {
+      "word": "clamour",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "knee, lap"
+    },
+    {
+      "word": "clare",
+      "dialect": "central",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "clear, transparent"
+    },
+    {
+      "word": "clemezen",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "insane, insanity"
+    },
+    {
+      "word": "clyncye",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "pure, genuine"
+    },
+    {
+      "word": "coall",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "return",
+      "unofficial": true
+    },
+    {
+      "word": "colga",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "ice"
+    },
+    {
+      "word": "colgen",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "freeze, frozen",
+      "unofficial": true
+    },
+    {
+      "word": "coree",
+      "dialect": "unknown",
+      "partOfSpeech": "preposition",
+      "meaning": "within my heart",
+      "unofficial": true
+    },
+    {
+      "word": "corle",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "heart",
+      "unofficial": true
+    },
+    {
+      "word": "corpu",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "body, flesh",
+      "unofficial": true
+    },
+    {
+      "word": "crannidale",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "share"
+    },
+    {
+      "word": "cremia",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "relief, aid, salvation",
+      "unofficial": true
+    },
+    {
+      "word": "crown",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "cup, goblet",
+      "unofficial": true
+    },
+    {
+      "word": "crudea",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "anguish, distress"
+    },
+    {
+      "word": "crushue",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "create, craft"
+    },
+    {
+      "word": "cupla",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "sin"
+    },
+    {
+      "word": "cyuie",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "sad, sorrowful"
+    },
+    {
+      "word": "cyurio",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "reason, logic, system"
+    },
+    {
+      "word": "d.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "dance"
+    },
+    {
+      "word": "d.n.g.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "pierce",
+      "unofficial": true
+    },
+    {
+      "word": "d.r.s.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "passed down, passed on",
+      "unofficial": true
+    },
+    {
+      "word": "d.s.s.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "strike, engage",
+      "unofficial": true
+    },
+    {
+      "word": "d.z.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "die"
+    },
+    {
+      "word": "daedu",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "eyesore"
+    },
+    {
+      "word": "daf",
+      "dialect": "unknown",
+      "partOfSpeech": "preposition",
+      "meaning": "for, that",
+      "unofficial": true
+    },
+    {
+      "word": "dand",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "door"
+    },
+    {
+      "word": "dauan",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "dawn"
+    },
+    {
+      "word": "dauane",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "like or related to dawn"
+    },
+    {
+      "word": "dazua",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "dark, shady",
+      "unofficial": true
+    },
+    {
+      "word": "dea",
+      "dialect": "unknown",
+      "partOfSpeech": "preposition, particle",
+      "meaning": "with, by means of",
+      "unofficial": true
+    },
+    {
+      "word": "deata",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "pass judgment, convict"
+    },
+    {
+      "word": "deggeez",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "betray, oppose, betrayal"
+    },
+    {
+      "word": "degle",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "destroy, overthrow, ruin"
+    },
+    {
+      "word": "dejuy",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "atonement"
+    },
+    {
+      "word": "deleir",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "noun",
+      "meaning": "calamity, disaster"
+    },
+    {
+      "word": "delij",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "verb",
+      "meaning": "loathe, hate, shun"
+    },
+    {
+      "word": "den",
+      "dialect": "central",
+      "partOfSpeech": "conjunction",
+      "meaning": "but, although, however"
+    },
+    {
+      "word": "denera",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "evil being"
+    },
+    {
+      "word": "der",
+      "dialect": "metafalss",
+      "partOfSpeech": "particle",
+      "meaning": "according to, by means of"
+    },
+    {
+      "word": "desfel",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "hate, detest, unpleasant"
+    },
+    {
+      "word": "dest",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "destroy, obliterate, bring to an end",
+      "unofficial": true
+    },
+    {
+      "word": "deu",
+      "dialect": "unknown",
+      "partOfSpeech": "preposition, particle",
+      "meaning": "thus, therefore, and",
+      "unofficial": true
+    },
+    {
+      "word": "dewee",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "kneel",
+      "unofficial": true
+    },
+    {
+      "word": "dgal",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "country, region",
+      "unofficial": true
+    },
+    {
+      "word": "dhezeall",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "captive, prisoner"
+    },
+    {
+      "word": "Dia",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "king, throne, ruler"
+    },
+    {
+      "word": "diasee",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "child of divinity"
+    },
+    {
+      "word": "didalia",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "large, grand"
+    },
+    {
+      "word": "dilete",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "god's divine protection",
+      "description": "As part of Song Magic, this word confers defense and status boosts."
+    },
+    {
+      "word": "discest",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "lie, cheat, deceive"
+    },
+    {
+      "word": "dius",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "divine, sacred, noble"
+    },
+    {
+      "word": "diviega",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "sacred sword, great wisdom (derivative meaning)"
+    },
+    {
+      "word": "dje",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "body",
+      "unofficial": true
+    },
+    {
+      "word": "dn",
+      "dialect": "pastalia",
+      "partOfSpeech": "preposition",
+      "meaning": "(instrument/location/cause/time identifier)",
+      "description": "Indicates a triggering element."
+    },
+    {
+      "word": "doodu",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "ground, earth"
+    },
+    {
+      "word": "dople",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "remove, exclude, reject"
+    },
+    {
+      "word": "dor",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "land mass, continent"
+    },
+    {
+      "word": "dorn",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "tree, wood"
+    },
+    {
+      "word": "dornpica",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "nut, berry"
+    },
+    {
+      "word": "dralee",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "offering",
+      "unofficial": true
+    },
+    {
+      "word": "drone",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "download, absorb"
+    },
+    {
+      "word": "dsier",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "desire"
+    },
+    {
+      "word": "du",
+      "dialect": "pastalia",
+      "partOfSpeech": "preposition",
+      "meaning": "(direct object identifier)",
+      "description": "Indicates the direct object of a sentence."
+    },
+    {
+      "word": "dyya",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "day",
+      "description": "Refers to arbitrary days. Use \"dyyal\" to refer to a quantity of days."
+    },
+    {
+      "word": "dyyal",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "(day-count indicator)",
+      "description": "\"1 dyyal\": \"1 day\"; \"2 dyyal\": \"2 days\"."
+    },
+    {
+      "word": "D_CELL",
+      "dialect": "unknown",
+      "partOfSpeech": "language construct",
+      "meaning": "D-Cellophane",
+      "unofficial": true
+    },
+    {
+      "word": "eazas",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "mutual",
+      "description": "\"mutual love\" = \"hartes eazas\". It may be used after a verb, as shown."
+    },
+    {
+      "word": "echrra",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "resonate"
+    },
+    {
+      "word": "ee",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "praise"
+    },
+    {
+      "word": "eetor",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "alternative"
+    },
+    {
+      "word": "eje",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "heart, mind, spirit, self, feeling"
+    },
+    {
+      "word": "elle",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "from, derived, origin",
+      "description": "Indicates the origin (place of departure, ancestry) of a noun."
+    },
+    {
+      "word": "elye",
+      "dialect": "pastalia",
+      "partOfSpeech": "adverb",
+      "meaning": "hitherto, 'til now"
+    },
+    {
+      "word": "en",
+      "dialect": "central",
+      "partOfSpeech": "conjunction",
+      "meaning": "and, so, therefore, for"
+    },
+    {
+      "word": "enclone",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "wrap around"
+    },
+    {
+      "word": "endia",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "terminate, stop"
+    },
+    {
+      "word": "ene",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "think, feel strongly"
+    },
+    {
+      "word": "enegd",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "become numb"
+    },
+    {
+      "word": "enerel",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adverb",
+      "meaning": "always"
+    },
+    {
+      "word": "enesse",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "emotion"
+    },
+    {
+      "word": "engassya",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "raid, plunder (command)"
+    },
+    {
+      "word": "engua",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "predestined, inevitable, unchangeable",
+      "unofficial": true
+    },
+    {
+      "word": "enne",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "prayer, wish"
+    },
+    {
+      "word": "enrer",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adverb",
+      "meaning": "always, usually"
+    },
+    {
+      "word": "enter",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "enter"
+    },
+    {
+      "word": "envied",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "stupid, idiotic",
+      "unofficial": true
+    },
+    {
+      "word": "enw",
+      "dialect": "central",
+      "partOfSpeech": "conjunction",
+      "meaning": "while doing (something)"
+    },
+    {
+      "word": "erlla",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "very much, more, further",
+      "unofficial": true
+    },
+    {
+      "word": "erphy",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "memory, rememberance",
+      "unofficial": true
+    },
+    {
+      "word": "erra",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (III)",
+      "meaning": "I want this to continue forever"
+    },
+    {
+      "word": "ess",
+      "dialect": "pastalia",
+      "partOfSpeech": "preposition",
+      "meaning": "in"
+    },
+    {
+      "word": "et",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "large, grand"
+    },
+    {
+      "word": "eta",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "eat"
+    },
+    {
+      "word": "etealune",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "eternity"
+    },
+    {
+      "word": "eterne",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "noun",
+      "meaning": "eternity"
+    },
+    {
+      "word": "eux",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "eye"
+    },
+    {
+      "word": "ewle",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "long",
+      "unofficial": true
+    },
+    {
+      "word": "exali",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "radiant, dazzling",
+      "unofficial": true
+    },
+    {
+      "word": "EXA_PICO",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "Exa Pico",
+      "unofficial": true,
+      "description": "The name given to a unique atomic nucleus, which shapes the world with its vibrations"
+    },
+    {
+      "word": "exec",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "execute, realize, invoke"
+    },
+    {
+      "word": "f.p.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "fall (as rain), downpour",
+      "unofficial": true
+    },
+    {
+      "word": "f.r.l.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "be frightened"
+    },
+    {
+      "word": "f.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "whisper"
+    },
+    {
+      "word": "f.w.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "accept"
+    },
+    {
+      "word": "f.w.r.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "wrap around"
+    },
+    {
+      "word": "faf",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "frightening, creepy"
+    },
+    {
+      "word": "faiy",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "momentary, instantaneous",
+      "unofficial": true
+    },
+    {
+      "word": "faja",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "advance, progress",
+      "description": "Used in the context of individuals; for groups, use \"zahha\"."
+    },
+    {
+      "word": "falfa",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "peace",
+      "unofficial": true
+    },
+    {
+      "word": "famfa",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "fly (flap wings)"
+    },
+    {
+      "word": "fanalea",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "loud, sonorous",
+      "unofficial": true
+    },
+    {
+      "word": "fandel",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "many, numerous things"
+    },
+    {
+      "word": "fane",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "affection"
+    },
+    {
+      "word": "fatele",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "father"
+    },
+    {
+      "word": "fatere",
+      "dialect": "central",
+      "partOfSpeech": "conjunction",
+      "meaning": "if not (x) then (y)"
+    },
+    {
+      "word": "fau",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "bird",
+      "description": "Not used to describe small birds."
+    },
+    {
+      "word": "faura",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "small bird"
+    },
+    {
+      "word": "fayra",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "fire, flame"
+    },
+    {
+      "word": "fedyya",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "tomorrow",
+      "description": "May also indicate the future in a general sense."
+    },
+    {
+      "word": "fee",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "wind",
+      "unofficial": true
+    },
+    {
+      "word": "ferda",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "dwell (as in a home)"
+    },
+    {
+      "word": "fernia",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "smile"
+    },
+    {
+      "word": "fhau",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "light",
+      "unofficial": true
+    },
+    {
+      "word": "fhauri",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "of light",
+      "unofficial": true
+    },
+    {
+      "word": "fhyu",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "wind, breeze"
+    },
+    {
+      "word": "firanzia",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "end of an era, end of the world",
+      "unofficial": true
+    },
+    {
+      "word": "firga",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "past",
+      "unofficial": true
+    },
+    {
+      "word": "firle",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "feel, sense"
+    },
+    {
+      "word": "flare",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "float, levitate"
+    },
+    {
+      "word": "flip",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "reverse, command for flip-flop conversion",
+      "description": "Serves as the initiation command for flip-flop conversion"
+    },
+    {
+      "word": "flip",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "preposition",
+      "meaning": "in exchange (for)"
+    },
+    {
+      "word": "fluy",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "spring, pool (of water)"
+    },
+    {
+      "word": "focs",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "deep, thick",
+      "unofficial": true
+    },
+    {
+      "word": "fogabe",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "forgive, pardon"
+    },
+    {
+      "word": "folten",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "before (directional), in front",
+      "description": "Use \"beng\" to indicate relative time."
+    },
+    {
+      "word": "forgandal",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "conjunction, preposition",
+      "meaning": "because of...(!)"
+    },
+    {
+      "word": "forlindel",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "village leader"
+    },
+    {
+      "word": "forlinden",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "village"
+    },
+    {
+      "word": "Fou",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (I)",
+      "meaning": "a little"
+    },
+    {
+      "word": "foul",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "wonder, mystery, miracle"
+    },
+    {
+      "word": "fountaina",
+      "dialect": "central",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "cover, bury, submerge"
+    },
+    {
+      "word": "fowrlle",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "comfort, rest, relaxation"
+    },
+    {
+      "word": "frawr",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "flower"
+    },
+    {
+      "word": "frawrle",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "springtime"
+    },
+    {
+      "word": "frissoner",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "shiver"
+    },
+    {
+      "word": "frreie",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "release",
+      "unofficial": true
+    },
+    {
+      "word": "fs",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "breeze",
+      "description": "Means 'whisper' when prefixed with an E emotion vowel"
+    },
+    {
+      "word": "ftt",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "vanish"
+    },
+    {
+      "word": "fulual",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "receive (as having a wish come true)"
+    },
+    {
+      "word": "fusya",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "wrap"
+    },
+    {
+      "word": "futare",
+      "dialect": "central",
+      "partOfSpeech": "noun, preposition",
+      "meaning": "future"
+    },
+    {
+      "word": "fwal",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "wing"
+    },
+    {
+      "word": "fwillra",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "feather, down"
+    },
+    {
+      "word": "g.k.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "eat"
+    },
+    {
+      "word": "g.v.w.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "fight, battle",
+      "unofficial": true
+    },
+    {
+      "word": "g.w.f.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "judge"
+    },
+    {
+      "word": "g.w.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "lead, guide",
+      "unofficial": true
+    },
+    {
+      "word": "ga",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (III)",
+      "meaning": "I want this to stop"
+    },
+    {
+      "word": "gagis",
+      "dialect": "metafalss",
+      "partOfSpeech": "Emotion Sound (III)",
+      "meaning": "I am indifferent"
+    },
+    {
+      "word": "ganna",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "strong, stubborn, solid, rock"
+    },
+    {
+      "word": "garlden",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "town"
+    },
+    {
+      "word": "gasar",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "doll, stuffed animal"
+    },
+    {
+      "word": "gat",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "curse"
+    },
+    {
+      "word": "gatyunla",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "cursed place, Hell"
+    },
+    {
+      "word": "gatyuny",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "curse"
+    },
+    {
+      "word": "gaunji",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "torment, torture",
+      "unofficial": true
+    },
+    {
+      "word": "gauto",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "dark skies, overcast, dark clouds",
+      "unofficial": true
+    },
+    {
+      "word": "gauv",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "sin, blame",
+      "unofficial": true
+    },
+    {
+      "word": "gauzewiga",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun, verb",
+      "meaning": "despair"
+    },
+    {
+      "word": "gaya",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (III)",
+      "meaning": "I never want this to happen again"
+    },
+    {
+      "word": "geeow",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "oath, vow, determination"
+    },
+    {
+      "word": "getrra",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "dirty, tainted"
+    },
+    {
+      "word": "gfine",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "time",
+      "unofficial": true
+    },
+    {
+      "word": "gigeadeth",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "steel, iron"
+    },
+    {
+      "word": "giue",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "body",
+      "unofficial": true
+    },
+    {
+      "word": "giz",
+      "dialect": "unknown",
+      "partOfSpeech": "noun, verb",
+      "meaning": "fear, dread",
+      "unofficial": true
+    },
+    {
+      "word": "gkgul",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "cracked"
+    },
+    {
+      "word": "glansee",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "divine, glorious",
+      "description": "Means 'God' when prefixed with an LYA emotion vowel"
+    },
+    {
+      "word": "glasden",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "supreme"
+    },
+    {
+      "word": "goa",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "only (thing)"
+    },
+    {
+      "word": "gool",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "starved, parched"
+    },
+    {
+      "word": "got",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "acquire"
+    },
+    {
+      "word": "gott",
+      "dialect": "central",
+      "partOfSpeech": "interjection",
+      "meaning": "get off! go away! (dirty feeling)"
+    },
+    {
+      "word": "govan",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "vehement",
+      "unofficial": true
+    },
+    {
+      "word": "govaz",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "fiancee"
+    },
+    {
+      "word": "gral",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "entirety, whole"
+    },
+    {
+      "word": "gran",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "begin (a performance)"
+    },
+    {
+      "word": "grandee",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "parent, guardian"
+    },
+    {
+      "word": "grandus",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "defend, protect"
+    },
+    {
+      "word": "granme",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "wanting to protect, brave"
+    },
+    {
+      "word": "grave",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "indoors, cave, shelter"
+    },
+    {
+      "word": "grlanza",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "dance"
+    },
+    {
+      "word": "grow",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "insolent, arrogant",
+      "unofficial": true
+    },
+    {
+      "word": "grrena",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "green",
+      "description": "Used as a noun, this refers to greenery, as in vegetation."
+    },
+    {
+      "word": "grruw",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "raise (as a parent raising a child)"
+    },
+    {
+      "word": "guard",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "protection, defense"
+    },
+    {
+      "word": "guatrz",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "anger, hatred"
+    },
+    {
+      "word": "guaysu",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "gaze downwards"
+    },
+    {
+      "word": "guol",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "close (as a door)"
+    },
+    {
+      "word": "guwo",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "angry, resentful"
+    },
+    {
+      "word": "gyaje",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "error, mistake"
+    },
+    {
+      "word": "gyajlee",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "sinner"
+    },
+    {
+      "word": "gyas",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "evil spirit, bad seed"
+    },
+    {
+      "word": "gyen",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "to create, to realize (as with magic)"
+    },
+    {
+      "word": "gyenel",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "wizard (crafter)"
+    },
+    {
+      "word": "gyengyat",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "devour, imbibe",
+      "description": "Carries a crude, vulgar connotation."
+    },
+    {
+      "word": "gyuss",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "embrace"
+    },
+    {
+      "word": "gyusya",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "control"
+    },
+    {
+      "word": "h.k.t.t.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "embrace, hug"
+    },
+    {
+      "word": "h.l.s.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "lament"
+    },
+    {
+      "word": "h.m.m.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "sing, express through song"
+    },
+    {
+      "word": "h.p.p.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "think, feel"
+    },
+    {
+      "word": "h.p.ps.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "thinking (caring) about (someone)"
+    },
+    {
+      "word": "h.r.n.t.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "go on a journey"
+    },
+    {
+      "word": "h.w.s.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "mature"
+    },
+    {
+      "word": "haf",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "pick up, possess"
+    },
+    {
+      "word": "Haibanation",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Hibernation",
+      "unofficial": true,
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "handeres",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "defeat, loss"
+    },
+    {
+      "word": "hao",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "higher rank, higher grade, superior"
+    },
+    {
+      "word": "harmon",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "communal effort"
+    },
+    {
+      "word": "Harmonious",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Harmonious",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "harphe",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "morning"
+    },
+    {
+      "word": "harr",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "she"
+    },
+    {
+      "word": "harra",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "they (feminine)"
+    },
+    {
+      "word": "hars",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "her (plural)"
+    },
+    {
+      "word": "hartes",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "love"
+    },
+    {
+      "word": "harton",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "love"
+    },
+    {
+      "word": "has",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "her"
+    },
+    {
+      "word": "hasyu",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "fish"
+    },
+    {
+      "word": "heath",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "very hot"
+    },
+    {
+      "word": "heetha",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "healthy"
+    },
+    {
+      "word": "heighte",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "injure"
+    },
+    {
+      "word": "her",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "this"
+    },
+    {
+      "word": "here",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "here"
+    },
+    {
+      "word": "herr",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "he"
+    },
+    {
+      "word": "herra",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "they (masculine)"
+    },
+    {
+      "word": "hers",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "him (plural)"
+    },
+    {
+      "word": "hes",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "him"
+    },
+    {
+      "word": "hieg",
+      "dialect": "central",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "sad, to be sad"
+    },
+    {
+      "word": "hierle",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "sad, to be sad"
+    },
+    {
+      "word": "hiew",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "saddness, grief"
+    },
+    {
+      "word": "hiewi",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "heart-breaking, sad"
+    },
+    {
+      "word": "hiralg",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "thirst",
+      "unofficial": true
+    },
+    {
+      "word": "hopb",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "heart, mind (as an experience)"
+    },
+    {
+      "word": "houd",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "embrace"
+    },
+    {
+      "word": "how",
+      "dialect": "unknown",
+      "partOfSpeech": "preposition, particle",
+      "meaning": "like",
+      "unofficial": true
+    },
+    {
+      "word": "hueaf",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "futile, pointless, inevitable (failure)"
+    },
+    {
+      "word": "hyear",
+      "dialect": "central",
+      "partOfSpeech": "interjection",
+      "meaning": "\"hey\", \"you, there\""
+    },
+    {
+      "word": "hyma",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "listen (to words)"
+    },
+    {
+      "word": "hymma",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "small bird",
+      "description": "The etymological root of words, such as \"hymme\", that describe sources of music."
+    },
+    {
+      "word": "hymme",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "sing, play an instrument, resonate",
+      "description": "If used as a noun, this refers to the sounds created by the action."
+    },
+    {
+      "word": "hymmne",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "melody, tune, sound waves",
+      "description": "Semantically different from \"hymmnos\": \"hymmne\" refers to sound and songs in general."
+    },
+    {
+      "word": "hymmnos",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos, song"
+    },
+    {
+      "word": "hynne",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "voice"
+    },
+    {
+      "word": "hyzik",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "noun",
+      "meaning": "body, form"
+    },
+    {
+      "word": "i",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "impatient"
+    },
+    {
+      "word": "iasien",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "morning dew"
+    },
+    {
+      "word": "ides",
+      "dialect": "central",
+      "partOfSpeech": "noun, preposition",
+      "meaning": "past (time)"
+    },
+    {
+      "word": "idesy",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "belonging to the past"
+    },
+    {
+      "word": "ieeya",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "hope, wish"
+    },
+    {
+      "word": "iem",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "present (time)"
+    },
+    {
+      "word": "Implanta",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Implanta, God's tree, fruit, seed",
+      "unofficial": true,
+      "description": "In the myths of Meta Falss, this refers to the tree of God."
+    },
+    {
+      "word": "infel",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "love",
+      "description": "'infel yor' means 'thank you'"
+    },
+    {
+      "word": "inferiare",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "beloved"
+    },
+    {
+      "word": "ini",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "initialise, first exposure to"
+    },
+    {
+      "word": "innna",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "inner world, within the heart"
+    },
+    {
+      "word": "irs",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "exist"
+    },
+    {
+      "word": "j.d.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "apprehend, capture",
+      "unofficial": true
+    },
+    {
+      "word": "j.l.j.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "capture, attach, absorb"
+    },
+    {
+      "word": "j.l.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "calm down, regain senses"
+    },
+    {
+      "word": "j.w.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "entrust"
+    },
+    {
+      "word": "j.z.t.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "invoke, realize, execute"
+    },
+    {
+      "word": "jam",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "together"
+    },
+    {
+      "word": "jambea",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "foot, leg"
+    },
+    {
+      "word": "jass",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "seek"
+    },
+    {
+      "word": "jastil",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "come on!, let's go!",
+      "unofficial": true
+    },
+    {
+      "word": "jefea",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "lamentable, grievous",
+      "unofficial": true
+    },
+    {
+      "word": "jenge",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "enemy, rival, opponent"
+    },
+    {
+      "word": "jenhah",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "disaster, calamity"
+    },
+    {
+      "word": "jouee",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "divine power"
+    },
+    {
+      "word": "jue",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "water",
+      "unofficial": true
+    },
+    {
+      "word": "jyel",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "lonely"
+    },
+    {
+      "word": "k.f.k.k.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "sneer at, ridicule",
+      "unofficial": true
+    },
+    {
+      "word": "k.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "play, frolic"
+    },
+    {
+      "word": "k.v.n.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "challenge, defy"
+    },
+    {
+      "word": "k.v.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "wrap, cover",
+      "unofficial": true
+    },
+    {
+      "word": "kajya",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "essential"
+    },
+    {
+      "word": "kapa",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "water"
+    },
+    {
+      "word": "karf",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "change",
+      "unofficial": true
+    },
+    {
+      "word": "keen",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "shine, sparkle"
+    },
+    {
+      "word": "keenis",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "radiance"
+    },
+    {
+      "word": "keg",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "branch, limb"
+    },
+    {
+      "word": "khal",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "protect, defend"
+    },
+    {
+      "word": "ki",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "focused, concentrating"
+    },
+    {
+      "word": "kiafa",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "hear, listen"
+    },
+    {
+      "word": "kiakkya",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "friend",
+      "unofficial": true,
+      "description": "Possibly a typo of 'kyakkya'"
+    },
+    {
+      "word": "kiala",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "gold, golden",
+      "unofficial": true
+    },
+    {
+      "word": "kierre",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "instant, moment"
+    },
+    {
+      "word": "kil",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "kill"
+    },
+    {
+      "word": "knawa",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "know, understand"
+    },
+    {
+      "word": "kneet",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "be late, be delayed"
+    },
+    {
+      "word": "koffl",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "drink",
+      "unofficial": true
+    },
+    {
+      "word": "konla",
+      "dialect": "unknown",
+      "partOfSpeech": "noun, verb",
+      "meaning": "echo, resound",
+      "unofficial": true
+    },
+    {
+      "word": "koora",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "stream, brook"
+    },
+    {
+      "word": "kouf",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun, verb",
+      "meaning": "sigh"
+    },
+    {
+      "word": "ks",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "hint, suggest"
+    },
+    {
+      "word": "kuhle",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "poison"
+    },
+    {
+      "word": "kvvia",
+      "dialect": "unknown",
+      "partOfSpeech": "noun, verb",
+      "meaning": "regret, repentance",
+      "unofficial": true
+    },
+    {
+      "word": "kvyeire",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "end, demise",
+      "unofficial": true
+    },
+    {
+      "word": "kyll",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "cut, detach, sever",
+      "unofficial": true
+    },
+    {
+      "word": "l.k.k.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "admire, look up at",
+      "unofficial": true
+    },
+    {
+      "word": "l.l.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "bless"
+    },
+    {
+      "word": "l.n.c.a.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "link, connect"
+    },
+    {
+      "word": "la",
+      "dialect": "central",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "that (used to add emphasis)",
+      "description": "Used before vowels."
+    },
+    {
+      "word": "lamenza",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "lament, grief"
+    },
+    {
+      "word": "lamenzeo",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "borne of laments, borne of grief",
+      "unofficial": true
+    },
+    {
+      "word": "lapo",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "chance encounter"
+    },
+    {
+      "word": "lasye",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "boy"
+    },
+    {
+      "word": "lau",
+      "dialect": "unknown",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "fear, dread",
+      "unofficial": true
+    },
+    {
+      "word": "lautyca",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "fall down",
+      "unofficial": true
+    },
+    {
+      "word": "layy",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "false, fictional, illusionary",
+      "unofficial": true
+    },
+    {
+      "word": "leaff",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "book, picture book"
+    },
+    {
+      "word": "leat",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "play (an instrument)",
+      "description": "Used in preference to \"hymme\" when in a figurative context."
+    },
+    {
+      "word": "lequera",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "good person, doer of good"
+    },
+    {
+      "word": "lhasya",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "connect, tie together",
+      "unofficial": true
+    },
+    {
+      "word": "li",
+      "dialect": "central",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "that (used to add emphasis)",
+      "description": "Used before consonants."
+    },
+    {
+      "word": "Linca",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Linker",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "linen",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "talk, speak"
+    },
+    {
+      "word": "lir",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "noun",
+      "meaning": "light"
+    },
+    {
+      "word": "lirle",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "summertime"
+    },
+    {
+      "word": "llizz",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "might, possibly, maybe"
+    },
+    {
+      "word": "lof",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "place, location"
+    },
+    {
+      "word": "lonfa",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "soul",
+      "unofficial": true
+    },
+    {
+      "word": "lornya",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "honey",
+      "unofficial": true
+    },
+    {
+      "word": "loss",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "dead, lost",
+      "unofficial": true
+    },
+    {
+      "word": "lulurnya",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "joy, happiness",
+      "unofficial": true
+    },
+    {
+      "word": "lurrea",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "fear"
+    },
+    {
+      "word": "lusye",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "light"
+    },
+    {
+      "word": "lyafre",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "butterfly"
+    },
+    {
+      "word": "lyrnya",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "gentle, peaceful",
+      "unofficial": true
+    },
+    {
+      "word": "lyuma",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "star, planet",
+      "description": "Means 'Maiden of Mio' if prefixed with an LYA emotion vowel"
+    },
+    {
+      "word": "m.a.m.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "exist"
+    },
+    {
+      "word": "m.f.l.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "cover, shroud",
+      "unofficial": true
+    },
+    {
+      "word": "m.n.g.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "consume, learn"
+    },
+    {
+      "word": "m.r.r.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "project, reflect",
+      "unofficial": true
+    },
+    {
+      "word": "m.t.y.y.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "create, produce, realize"
+    },
+    {
+      "word": "Ma",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (I)",
+      "meaning": "discretionary"
+    },
+    {
+      "word": "maen",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "full moon"
+    },
+    {
+      "word": "mahin",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "hand"
+    },
+    {
+      "word": "Manac",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "true name, name of a soul"
+    },
+    {
+      "word": "manaf",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "life (mortality)"
+    },
+    {
+      "word": "manafaln",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "transmigration, reincarnation"
+    },
+    {
+      "word": "manafeeze",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun, verb",
+      "meaning": "live, state of living"
+    },
+    {
+      "word": "maoh",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "Maoh, Rhaplanca's partner in Meta Falss mythology "
+    },
+    {
+      "word": "marfo",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "beloved, dear",
+      "unofficial": true
+    },
+    {
+      "word": "marta",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "mother, motherly"
+    },
+    {
+      "word": "maun",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "eyelid"
+    },
+    {
+      "word": "maxim",
+      "dialect": "central",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "most, extreme"
+    },
+    {
+      "word": "maya",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "magic, the supernatural"
+    },
+    {
+      "word": "mea",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "me, myself"
+    },
+    {
+      "word": "mean",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "us, ourselves"
+    },
+    {
+      "word": "meaql",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "gentle",
+      "unofficial": true
+    },
+    {
+      "word": "melenas",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "love, care for very deeply",
+      "description": "Expresses a very strong form of love."
+    },
+    {
+      "word": "melifan",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "history"
+    },
+    {
+      "word": "melvaz",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "bride"
+    },
+    {
+      "word": "memora",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "memory"
+    },
+    {
+      "word": "meo",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "dream, ideal"
+    },
+    {
+      "word": "merfa",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "pure, pure wish",
+      "unofficial": true
+    },
+    {
+      "word": "merra",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "us (subject form)"
+    },
+    {
+      "word": "meryu",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "memory",
+      "description": "Used with A, this refers to a dream experienced by the speaker."
+    },
+    {
+      "word": "meso",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "clutter"
+    },
+    {
+      "word": "messe",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "transmit, report"
+    },
+    {
+      "word": "Meta",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "Mid-sized mountainous region",
+      "unofficial": true,
+      "description": "Canonical example: Meta Falss"
+    },
+    {
+      "word": "Metafalica",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Metafalica",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "milra",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "fragrance",
+      "unofficial": true
+    },
+    {
+      "word": "mirie",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "warm, gentle",
+      "unofficial": true
+    },
+    {
+      "word": "morto",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "die, death"
+    },
+    {
+      "word": "murfan",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "think, feel"
+    },
+    {
+      "word": "murfanare",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "thoughts, feelings"
+    },
+    {
+      "word": "mutrk",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "warm, gentle",
+      "unofficial": true
+    },
+    {
+      "word": "n.d.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "lay down, lay flat",
+      "unofficial": true
+    },
+    {
+      "word": "n.e.g.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "pray",
+      "unofficial": true
+    },
+    {
+      "word": "n.m.l.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "dye"
+    },
+    {
+      "word": "n.t.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "continue onwards",
+      "unofficial": true
+    },
+    {
+      "word": "na",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "negation"
+    },
+    {
+      "word": "naave",
+      "dialect": "pastalia",
+      "partOfSpeech": "preposition",
+      "meaning": "because"
+    },
+    {
+      "word": "nafa",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "kind, gentle"
+    },
+    {
+      "word": "nafan",
+      "dialect": "pastalia",
+      "partOfSpeech": "adverb",
+      "meaning": "kind, gentle"
+    },
+    {
+      "word": "naflansee",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "good fortune"
+    },
+    {
+      "word": "naja",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "fall back, flee"
+    },
+    {
+      "word": "near",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "life (mortality)"
+    },
+    {
+      "word": "neath",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "red hot, scorching",
+      "unofficial": true
+    },
+    {
+      "word": "nedle",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "verb",
+      "meaning": "need, require"
+    },
+    {
+      "word": "neee",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "call"
+    },
+    {
+      "word": "neen",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "too much, excessive, beyond reason"
+    },
+    {
+      "word": "neia",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "approach, get acquainted"
+    },
+    {
+      "word": "nene",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "not understand"
+    },
+    {
+      "word": "nepo",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "moisten"
+    },
+    {
+      "word": "netvear",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "give up, cave, become discouraged"
+    },
+    {
+      "word": "nezz",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "nose"
+    },
+    {
+      "word": "nha",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "accept, summon, permit entry (spiritual)",
+      "description": "Abstract term; refers to magic and the ethereal."
+    },
+    {
+      "word": "nhaf",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "surprised, dazed",
+      "unofficial": true
+    },
+    {
+      "word": "nille",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "resemble"
+    },
+    {
+      "word": "Nn",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (I)",
+      "meaning": "reluctant"
+    },
+    {
+      "word": "nnoini",
+      "dialect": "central",
+      "partOfSpeech": "adverb, noun",
+      "meaning": "first time"
+    },
+    {
+      "word": "noce",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "nature, spontaneity"
+    },
+    {
+      "word": "noes",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "self"
+    },
+    {
+      "word": "noglle",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "black"
+    },
+    {
+      "word": "nooge",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "lie down, sleep"
+    },
+    {
+      "word": "nor",
+      "dialect": "unknown",
+      "partOfSpeech": "conjunction",
+      "meaning": "or, either",
+      "unofficial": true
+    },
+    {
+      "word": "nosaash",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "goddess"
+    },
+    {
+      "word": "nozess",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "discard, lose"
+    },
+    {
+      "word": "nuih",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "night",
+      "description": "May be used to refer to nighttime in a general sense."
+    },
+    {
+      "word": "num",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "nil"
+    },
+    {
+      "word": "nx",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "next, subsequent"
+    },
+    {
+      "word": "nyamo",
+      "dialect": "unknown",
+      "partOfSpeech": "noun, verb",
+      "meaning": "meowing",
+      "unofficial": true
+    },
+    {
+      "word": "nyamonyas",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "friend",
+      "unofficial": true
+    },
+    {
+      "word": "nyanyas",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "cute, adorable",
+      "unofficial": true
+    },
+    {
+      "word": "nyasri",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "sad, depressed"
+    },
+    {
+      "word": "nyasyamorina",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "very happy",
+      "unofficial": true
+    },
+    {
+      "word": "ocurp",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "river mouth",
+      "unofficial": true
+    },
+    {
+      "word": "ogbl",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "coil into",
+      "unofficial": true
+    },
+    {
+      "word": "olo",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "night"
+    },
+    {
+      "word": "omness",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "life, existence",
+      "unofficial": true
+    },
+    {
+      "word": "omnis",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "whole, complete"
+    },
+    {
+      "word": "oriye",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "ear"
+    },
+    {
+      "word": "orn",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "only, sole, unique",
+      "unofficial": true
+    },
+    {
+      "word": "orviclle",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "question, challenge",
+      "description": "\"na orviclle\" means \"no problem\", as in contemporary American English."
+    },
+    {
+      "word": "oter",
+      "dialect": "unknown",
+      "partOfSpeech": "preposition",
+      "meaning": "originating from",
+      "unofficial": true,
+      "description": "Only observed in Hymmnos Spells."
+    },
+    {
+      "word": "oucc",
+      "dialect": "pastalia",
+      "partOfSpeech": "adverb",
+      "meaning": "together"
+    },
+    {
+      "word": "oure",
+      "dialect": "central",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "more than anything, above all"
+    },
+    {
+      "word": "ousye",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "verb",
+      "meaning": "charge (as in rush)"
+    },
+    {
+      "word": "ouvyu",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "ruins"
+    },
+    {
+      "word": "ouwua",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "a lot, many"
+    },
+    {
+      "word": "oz",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "of (indicates possession)"
+    },
+    {
+      "word": "p.s.w.t.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "seize, acquire"
+    },
+    {
+      "word": "pagle",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "talk to, speak with"
+    },
+    {
+      "word": "Paja",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Purger",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "pak",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "make time (for something)"
+    },
+    {
+      "word": "paks",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "excited, nervous"
+    },
+    {
+      "word": "pakz",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "divide, segragate"
+    },
+    {
+      "word": "papana",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "rain"
+    },
+    {
+      "word": "papas",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "belief",
+      "unofficial": true
+    },
+    {
+      "word": "papulipua",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "worry, bother",
+      "unofficial": true
+    },
+    {
+      "word": "parce",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "proof, evidence"
+    },
+    {
+      "word": "parge",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "unleash, free",
+      "description": "Generally used in the context of magic."
+    },
+    {
+      "word": "parith",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "honesty, sincerity"
+    },
+    {
+      "word": "pat",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "release, liberate"
+    },
+    {
+      "word": "paul",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "feel, sense"
+    },
+    {
+      "word": "pauwee",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "child of power"
+    },
+    {
+      "word": "pauwel",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "power"
+    },
+    {
+      "word": "pawr",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "power, strength",
+      "unofficial": true
+    },
+    {
+      "word": "pecee",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "hatching (as from an egg), incubating"
+    },
+    {
+      "word": "Phantasmagoria",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Phantasmagoria",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "phira",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "seed, type"
+    },
+    {
+      "word": "phiz",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "body"
+    },
+    {
+      "word": "phyue",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "congratulations"
+    },
+    {
+      "word": "pic",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "notice, observe"
+    },
+    {
+      "word": "pikca",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "fruit, positive result"
+    },
+    {
+      "word": "pilt",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "perceive"
+    },
+    {
+      "word": "pipel",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "pipe, cylinder"
+    },
+    {
+      "word": "pipit",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "small quantity"
+    },
+    {
+      "word": "pirtue",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "spirit (as in ghost)"
+    },
+    {
+      "word": "pitod",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adverb",
+      "meaning": "beside, with"
+    },
+    {
+      "word": "plina",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "greenery (vegetation)",
+      "description": "Used in reference to plants."
+    },
+    {
+      "word": "poe",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "seed, type"
+    },
+    {
+      "word": "polon",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "isolation"
+    },
+    {
+      "word": "pomb",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "create, produce"
+    },
+    {
+      "word": "pono",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "egg"
+    },
+    {
+      "word": "pop",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "bubble, froth"
+    },
+    {
+      "word": "porter",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "wear (as in clothes)"
+    },
+    {
+      "word": "prasrity",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "prosper, prosperity"
+    },
+    {
+      "word": "presia",
+      "dialect": "metafalss",
+      "partOfSpeech": "adverb",
+      "meaning": "please do (an action)"
+    },
+    {
+      "word": "prooth",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "blood"
+    },
+    {
+      "word": "pruna",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "funny",
+      "unofficial": true
+    },
+    {
+      "word": "ptrapica",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "treasure"
+    },
+    {
+      "word": "ptrapile",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "falltime"
+    },
+    {
+      "word": "pupe",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "tear, teardrop"
+    },
+    {
+      "word": "pyuf",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "head for, head to",
+      "unofficial": true
+    },
+    {
+      "word": "q.g.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "end, finish",
+      "unofficial": true
+    },
+    {
+      "word": "q.l.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "shake tremendously",
+      "unofficial": true
+    },
+    {
+      "word": "qejyu",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "humanity, human being",
+      "description": "\"significant other\" when used with E; \"family\" when used with YE; \"human kin\" when used with LYE."
+    },
+    {
+      "word": "qoga",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "end, demise",
+      "unofficial": true
+    },
+    {
+      "word": "qraffa",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "leaf"
+    },
+    {
+      "word": "quals",
+      "dialect": "unknown",
+      "partOfSpeech": "noun, verb",
+      "meaning": "possess life, return to life",
+      "unofficial": true
+    },
+    {
+      "word": "quel",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "eager, desperate"
+    },
+    {
+      "word": "quen",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "produce"
+    },
+    {
+      "word": "quesa",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "earth-shaker, thunder, lightning strike"
+    },
+    {
+      "word": "quivale",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "wintertime"
+    },
+    {
+      "word": "quive",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun, verb",
+      "meaning": "silence, stillness"
+    },
+    {
+      "word": "quowjaz",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "justice, righteousness"
+    },
+    {
+      "word": "r.f.m.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "see, observe"
+    },
+    {
+      "word": "r.f.r.m.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "recognize, know, understand"
+    },
+    {
+      "word": "r.l.t.y.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "revive, restore, resurrect",
+      "unofficial": true
+    },
+    {
+      "word": "r.w.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "help, save"
+    },
+    {
+      "word": "ra",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (III)",
+      "meaning": "I want this to continue"
+    },
+    {
+      "word": "race",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "necklace, wreathe",
+      "description": "Used as a verb, this refers to the wreathing process itself."
+    },
+    {
+      "word": "raklya",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "cry tears, weep"
+    },
+    {
+      "word": "rana",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "run"
+    },
+    {
+      "word": "rannef",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "reward"
+    },
+    {
+      "word": "rasse",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "yell, shout"
+    },
+    {
+      "word": "raudl",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "appearance, shape, form"
+    },
+    {
+      "word": "rawah",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "blossom, petal"
+    },
+    {
+      "word": "re",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "(passive modifier)",
+      "description": "May be used as an alternative to \"na\" to avoid introducing negation."
+    },
+    {
+      "word": "Re=Nation",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Re=Nation",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "reen",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "hear, listen"
+    },
+    {
+      "word": "repoear",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "gratitude"
+    },
+    {
+      "word": "reta",
+      "dialect": "pastalia",
+      "partOfSpeech": "preposition",
+      "meaning": "please (action)"
+    },
+    {
+      "word": "rete",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "forget, forgetful"
+    },
+    {
+      "word": "revatail",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "Reyvateil"
+    },
+    {
+      "word": "reveris",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "nightmare, delusion"
+    },
+    {
+      "word": "revm",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "dream"
+    },
+    {
+      "word": "rhaplanca",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "A goddess in Meta Falss mythology"
+    },
+    {
+      "word": "ridalnae",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "irreplaceable"
+    },
+    {
+      "word": "rifaiah",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, adverb",
+      "meaning": "borne of revival",
+      "unofficial": true
+    },
+    {
+      "word": "rifaien",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "revive, resurrect"
+    },
+    {
+      "word": "Rig=Veda",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Rig=Veda",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "rinc",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "synchronize, sympathize",
+      "unofficial": true
+    },
+    {
+      "word": "riomo",
+      "dialect": "cluster",
+      "partOfSpeech": "verb",
+      "meaning": "deliver (an object, report, information...)"
+    },
+    {
+      "word": "rippllys",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "reply, response"
+    },
+    {
+      "word": "riura",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "face, facial expression",
+      "unofficial": true
+    },
+    {
+      "word": "rivire",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "river"
+    },
+    {
+      "word": "riya",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "sincerity",
+      "unofficial": true
+    },
+    {
+      "word": "rol",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "like"
+    },
+    {
+      "word": "roon",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "mansion",
+      "unofficial": true
+    },
+    {
+      "word": "rooshellan",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "cradle",
+      "unofficial": true
+    },
+    {
+      "word": "rosa",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "rose, rose petal"
+    },
+    {
+      "word": "rre",
+      "dialect": "central",
+      "partOfSpeech": "language construct",
+      "meaning": "(subject identifier)",
+      "description": "Indicates that the following noun is the subject of the sentence."
+    },
+    {
+      "word": "Rrha",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (I)",
+      "meaning": "trance-like",
+      "description": "Not normally spoken willingly; this word tends to be propagated by a Reyvateil's subconscious."
+    },
+    {
+      "word": "rudje",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "red"
+    },
+    {
+      "word": "ruinie",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "destruction, disruption, crash (as a computer)"
+    },
+    {
+      "word": "ruinien",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "destruction",
+      "unofficial": true
+    },
+    {
+      "word": "rum",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "flame",
+      "unofficial": true
+    },
+    {
+      "word": "ryewa",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "overgrown, thick (as vegetation)"
+    },
+    {
+      "word": "ryushe",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "depart on a journey",
+      "unofficial": true
+    },
+    {
+      "word": "ryusse",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "travels, journey"
+    },
+    {
+      "word": "s.l.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "believe, trust"
+    },
+    {
+      "word": "s.l.y.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "award, give",
+      "unofficial": true
+    },
+    {
+      "word": "s.n.k.k.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "bud, sprout"
+    },
+    {
+      "word": "s.s.w.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "talk, communicate, declare"
+    },
+    {
+      "word": "sa",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "karma"
+    },
+    {
+      "word": "saash",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "god"
+    },
+    {
+      "word": "sabl",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "sand"
+    },
+    {
+      "word": "sacra",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "blood",
+      "unofficial": true
+    },
+    {
+      "word": "sallogna",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "lie down, stretch, rest"
+    },
+    {
+      "word": "sanctum",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "ark"
+    },
+    {
+      "word": "sar",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "noun",
+      "meaning": "sky",
+      "description": "While identical to \"ciel\" in meaning, this word was required for the Phantasmagoria Hymmnos."
+    },
+    {
+      "word": "sara",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "grass"
+    },
+    {
+      "word": "sarla",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "song, poem"
+    },
+    {
+      "word": "sarr",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "sunshine, radiance"
+    },
+    {
+      "word": "sarrifis",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "offer (as sacrifice)",
+      "description": "Describes the action of the offering."
+    },
+    {
+      "word": "sarsa",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "rain"
+    },
+    {
+      "word": "sash",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "scatter",
+      "unofficial": true
+    },
+    {
+      "word": "sasye",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "girl"
+    },
+    {
+      "word": "savath",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "disperse, scatter, overflow"
+    },
+    {
+      "word": "sechel",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "city"
+    },
+    {
+      "word": "sefanl",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "forest"
+    },
+    {
+      "word": "selena",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "play (an instrument)"
+    },
+    {
+      "word": "sephaje",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "creation of the world",
+      "unofficial": true
+    },
+    {
+      "word": "sev",
+      "dialect": "pastalia",
+      "partOfSpeech": "conjunction",
+      "meaning": "at the time of"
+    },
+    {
+      "word": "sguela",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "precious, important",
+      "unofficial": true
+    },
+    {
+      "word": "shazra",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "thorny vine, briar, splinter",
+      "description": "Used to describe plants with thorns."
+    },
+    {
+      "word": "sheak",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "sun"
+    },
+    {
+      "word": "sheaken",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "left",
+      "unofficial": true
+    },
+    {
+      "word": "shefra",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "creation of the world",
+      "unofficial": true
+    },
+    {
+      "word": "shell",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "shell (inside of)",
+      "unofficial": true
+    },
+    {
+      "word": "shellan",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "basket, cage, cell"
+    },
+    {
+      "word": "shen",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "light"
+    },
+    {
+      "word": "shyun",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "sadness, grief",
+      "unofficial": true
+    },
+    {
+      "word": "sial",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "a little bit, a little while"
+    },
+    {
+      "word": "siance",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "sanctuary, holy land, paradise"
+    },
+    {
+      "word": "siann",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "light",
+      "description": "Means 'Maiden of Homura' if prefixed with an LYA emotion vowel"
+    },
+    {
+      "word": "sielp",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "small stream"
+    },
+    {
+      "word": "sik",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "leave, become separated"
+    },
+    {
+      "word": "siss",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "erase, extinguish, shut down",
+      "unofficial": true
+    },
+    {
+      "word": "skit",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun, verb",
+      "meaning": "promise, vow"
+    },
+    {
+      "word": "slep",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "sleep"
+    },
+    {
+      "word": "slepir",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "put to sleep, halt, cease activity"
+    },
+    {
+      "word": "so",
+      "dialect": "unknown",
+      "partOfSpeech": "adverb, particle",
+      "meaning": "in such a way, to that degree",
+      "unofficial": true
+    },
+    {
+      "word": "soare",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "hymn, prayer",
+      "unofficial": true
+    },
+    {
+      "word": "sol",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun, verb",
+      "meaning": "shining daylight, cascading of radiant brilliance"
+    },
+    {
+      "word": "sonwe",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "sing"
+    },
+    {
+      "word": "sor",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "that"
+    },
+    {
+      "word": "sos",
+      "dialect": "central",
+      "partOfSpeech": "conjunction, preposition",
+      "meaning": "for the sake of"
+    },
+    {
+      "word": "sosar",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "sorcery, magical power",
+      "description": "\"maya\" is closer to mysticism, while this better describes acts of sorcery."
+    },
+    {
+      "word": "sphaela",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "the world, the universe (perceived reality)"
+    },
+    {
+      "word": "sphilar",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "mind, heart, spirit"
+    },
+    {
+      "word": "spiritum",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "soul, of the soul"
+    },
+    {
+      "word": "spitze",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "freedom"
+    },
+    {
+      "word": "ssvid",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "outlive",
+      "unofficial": true
+    },
+    {
+      "word": "stel",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "steal, take",
+      "description": "Indicates aggressive or intentionally wrongful acquisition."
+    },
+    {
+      "word": "stelled",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "compete for, struggle over",
+      "description": "Indicates conflict."
+    },
+    {
+      "word": "Suspend",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Suspend",
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "suwant",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "rescue, assist"
+    },
+    {
+      "word": "syalea",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "decision, determination",
+      "unofficial": true
+    },
+    {
+      "word": "syana",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "love",
+      "unofficial": true
+    },
+    {
+      "word": "syast",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "assemble, congregate"
+    },
+    {
+      "word": "syec",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "depths, abyss, ravine",
+      "description": "Used to describe matters of the heart and mind, rather than real-world pits."
+    },
+    {
+      "word": "syezo",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "soup",
+      "unofficial": true
+    },
+    {
+      "word": "synk",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "overlap, pile up"
+    },
+    {
+      "word": "syunaht",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "dissolve, scatter, vanish"
+    },
+    {
+      "word": "t.h.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "go outside",
+      "unofficial": true
+    },
+    {
+      "word": "t.k.d.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "reach (as a destination), arrive"
+    },
+    {
+      "word": "t.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "stop, halt"
+    },
+    {
+      "word": "t.n.m.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "scatter, sow, distribute"
+    },
+    {
+      "word": "t.r.m.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "develop, bloom, implement"
+    },
+    {
+      "word": "tafane",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun, verb",
+      "meaning": "glitter, sparkle",
+      "unofficial": true
+    },
+    {
+      "word": "talam",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "sunrise"
+    },
+    {
+      "word": "tanta",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "dance, flit"
+    },
+    {
+      "word": "tapa",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "water"
+    },
+    {
+      "word": "tarfe",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "stop, halt"
+    },
+    {
+      "word": "targue",
+      "dialect": "pastalia",
+      "partOfSpeech": "conjunction",
+      "meaning": "continue (x) even if (y)",
+      "description": "Addresses exceptions in plans."
+    },
+    {
+      "word": "tasyue",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "make an offering, sacrifice"
+    },
+    {
+      "word": "tatakaria",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "existences, beings, lives",
+      "unofficial": true,
+      "description": "Possibly a typo of tatakafria"
+    },
+    {
+      "word": "tek",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "start, go"
+    },
+    {
+      "word": "tes",
+      "dialect": "central",
+      "partOfSpeech": "preposition, particle",
+      "meaning": "to, at"
+    },
+    {
+      "word": "teyys",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "stop in place, suspend"
+    },
+    {
+      "word": "ther",
+      "dialect": "central",
+      "partOfSpeech": "preposition, particle",
+      "meaning": "that"
+    },
+    {
+      "word": "tictim",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "operate, process, function autonomously"
+    },
+    {
+      "word": "tie",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "catch, bind"
+    },
+    {
+      "word": "tie",
+      "dialect": "pastalia",
+      "partOfSpeech": "preposition",
+      "meaning": "(topic identifier)"
+    },
+    {
+      "word": "tienar",
+      "dialect": "unknown",
+      "partOfSpeech": "adverb",
+      "meaning": "without stopping, without end",
+      "unofficial": true
+    },
+    {
+      "word": "tilanta",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "flow into",
+      "unofficial": true
+    },
+    {
+      "word": "tim",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "time",
+      "unofficial": true
+    },
+    {
+      "word": "titia",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "good will, good intentions"
+    },
+    {
+      "word": "titil",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "accessory, small item"
+    },
+    {
+      "word": "titilia",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "small, tiny"
+    },
+    {
+      "word": "toe",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "rise above, stand over",
+      "unofficial": true
+    },
+    {
+      "word": "tonelico",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "divine tree (possibly also 'tower')",
+      "unofficial": true
+    },
+    {
+      "word": "tou",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "(indicates relative physical position)"
+    },
+    {
+      "word": "touwaka",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "hopeful"
+    },
+    {
+      "word": "trina",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "notice, become aware",
+      "unofficial": true
+    },
+    {
+      "word": "ttu",
+      "dialect": "pastalia",
+      "partOfSpeech": "conjunction",
+      "meaning": "being done for the sake of"
+    },
+    {
+      "word": "ture",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "bonds",
+      "unofficial": true
+    },
+    {
+      "word": "tussu",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "change, transformation"
+    },
+    {
+      "word": "tyui",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "small, little"
+    },
+    {
+      "word": "tyuss",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "kind, gentle",
+      "unofficial": true
+    },
+    {
+      "word": "U-TA",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "song",
+      "unofficial": true
+    },
+    {
+      "word": "ugi",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "decide"
+    },
+    {
+      "word": "uje",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "cruel, evil",
+      "unofficial": true
+    },
+    {
+      "word": "ujes",
+      "dialect": "pastalia",
+      "partOfSpeech": "adverb, noun",
+      "meaning": "malice"
+    },
+    {
+      "word": "unloee",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "submit (as to a higher power)"
+    },
+    {
+      "word": "urgn",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "grief, lamentation"
+    },
+    {
+      "word": "urr",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "manifest, incarnate (the culmination of an unseen force)"
+    },
+    {
+      "word": "ut",
+      "dialect": "pastalia",
+      "partOfSpeech": "preposition, particle",
+      "meaning": "to, at"
+    },
+    {
+      "word": "uteu",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun, verb",
+      "meaning": "doze off"
+    },
+    {
+      "word": "v.a.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "produce, craft"
+    },
+    {
+      "word": "v.s.k.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "experience, feel, sense"
+    },
+    {
+      "word": "v.t.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "live, exist"
+    },
+    {
+      "word": "vaffa",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "clear away, sweep away",
+      "unofficial": true
+    },
+    {
+      "word": "vale",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "bed",
+      "unofficial": true
+    },
+    {
+      "word": "valwa",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "purify, cleanse"
+    },
+    {
+      "word": "van",
+      "dialect": "metafalss",
+      "partOfSpeech": "conjunction, preposition",
+      "meaning": "even if (x) should happen"
+    },
+    {
+      "word": "varda",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "big tree"
+    },
+    {
+      "word": "vega",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "here, this"
+    },
+    {
+      "word": "vege",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "there, that"
+    },
+    {
+      "word": "vianchiel",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "pure, clean, undefiled"
+    },
+    {
+      "word": "viega",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "blade, sword"
+    },
+    {
+      "word": "Viena",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "Hymmnos - Viena",
+      "unofficial": true,
+      "description": "Hymmnos proper noun."
+    },
+    {
+      "word": "vigiga",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "cold",
+      "unofficial": true
+    },
+    {
+      "word": "vinan",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "white"
+    },
+    {
+      "word": "vine",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "wine, alcohol"
+    },
+    {
+      "word": "viss",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "read, analyse"
+    },
+    {
+      "word": "vit",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "view, see"
+    },
+    {
+      "word": "viuy",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "darkened, obscured",
+      "unofficial": true
+    },
+    {
+      "word": "vl",
+      "dialect": "unknown",
+      "partOfSpeech": "adverb",
+      "meaning": "since, from",
+      "unofficial": true
+    },
+    {
+      "word": "vonn",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "dark, shady"
+    },
+    {
+      "word": "w.f.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "desire to do"
+    },
+    {
+      "word": "w.h.h.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "feel, sense, experience"
+    },
+    {
+      "word": "w.n.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "(re)visit, echo"
+    },
+    {
+      "word": "w.r.l.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "aim for, track"
+    },
+    {
+      "word": "w.r.m.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "illuminate, shine"
+    },
+    {
+      "word": "w.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "give"
+    },
+    {
+      "word": "w.s.s.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "praise",
+      "unofficial": true
+    },
+    {
+      "word": "w.w.j.n.c.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "resonate, sympathize"
+    },
+    {
+      "word": "wa",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (III)",
+      "meaning": "I can tolerate this"
+    },
+    {
+      "word": "waa",
+      "dialect": "metafalss",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "happy"
+    },
+    {
+      "word": "waath",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "refresh, restore to life"
+    },
+    {
+      "word": "waats",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "important, valuable"
+    },
+    {
+      "word": "wael",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "joy, delight"
+    },
+    {
+      "word": "walaen",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "lifecycle"
+    },
+    {
+      "word": "walaka",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "walk"
+    },
+    {
+      "word": "walasye",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "person"
+    },
+    {
+      "word": "walphish",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "mermaid, merman",
+      "description": "Connected to the sea god of the First Era; does not refer to marionettes."
+    },
+    {
+      "word": "warce",
+      "dialect": "central",
+      "partOfSpeech": "noun, verb",
+      "meaning": "(conferrence of) blessing, celebration"
+    },
+    {
+      "word": "ware",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "during, in tandem with"
+    },
+    {
+      "word": "warma",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "warm, soothing"
+    },
+    {
+      "word": "wart",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "word, language"
+    },
+    {
+      "word": "Was",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (I)",
+      "meaning": "very much"
+    },
+    {
+      "word": "wasara",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "abundant, abundance"
+    },
+    {
+      "word": "wase",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "strong, intense"
+    },
+    {
+      "word": "wassa",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "festival"
+    },
+    {
+      "word": "wassee",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "praise",
+      "unofficial": true
+    },
+    {
+      "word": "watt",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "surprise, startle"
+    },
+    {
+      "word": "waze",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "(indicates multiplicity)",
+      "unofficial": true
+    },
+    {
+      "word": "we",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "moreso than"
+    },
+    {
+      "word": "weak",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "moon, month (when used as a period counter)"
+    },
+    {
+      "word": "weaken",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "right",
+      "unofficial": true
+    },
+    {
+      "word": "weal",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "happy, glad",
+      "unofficial": true
+    },
+    {
+      "word": "wearequewie",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "wish, desire, pray, hope"
+    },
+    {
+      "word": "Wee",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (I)",
+      "meaning": "reasonable"
+    },
+    {
+      "word": "weel",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "\"...come true!\", \"...happen!\""
+    },
+    {
+      "word": "ween",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "in (as in \"inside of\")"
+    },
+    {
+      "word": "wefa",
+      "dialect": "pastalia",
+      "partOfSpeech": "adjective",
+      "meaning": "warm, soothing",
+      "unofficial": true
+    },
+    {
+      "word": "werllra",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "tear, teardrop, drop"
+    },
+    {
+      "word": "werlwe",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "cry, shed tears, weep"
+    },
+    {
+      "word": "whai",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "the reason why is (x)"
+    },
+    {
+      "word": "whalt",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "what",
+      "unofficial": true
+    },
+    {
+      "word": "wharn",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "arm"
+    },
+    {
+      "word": "whou",
+      "dialect": "central",
+      "partOfSpeech": "adjective, verb",
+      "meaning": "performed by"
+    },
+    {
+      "word": "wi",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "that, that one there"
+    },
+    {
+      "word": "wiene",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "melody, tone, timbre",
+      "unofficial": true
+    },
+    {
+      "word": "willie",
+      "dialect": "central",
+      "partOfSpeech": "adjective",
+      "meaning": "delicate, ephemeral"
+    },
+    {
+      "word": "wim",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "daughter"
+    },
+    {
+      "word": "windiling",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "spirit of the wind",
+      "unofficial": true
+    },
+    {
+      "word": "wirtamarls",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "tranquil, tranquility",
+      "unofficial": true
+    },
+    {
+      "word": "wis",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "it is (literal qualifier)"
+    },
+    {
+      "word": "wol",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "fervourous"
+    },
+    {
+      "word": "won",
+      "dialect": "central",
+      "partOfSpeech": "preposition",
+      "meaning": "on (as in \"on top of\")"
+    },
+    {
+      "word": "x.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "(subject identifier)"
+    },
+    {
+      "word": "x.y.n.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "hurt, injure",
+      "unofficial": true
+    },
+    {
+      "word": "xava",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "wound",
+      "unofficial": true
+    },
+    {
+      "word": "xe",
+      "dialect": "cluster",
+      "partOfSpeech": "adverb",
+      "meaning": "please (used to show respect)",
+      "description": "\"xe khal\" indicates respect to the source of defense while requesting it."
+    },
+    {
+      "word": "xel",
+      "dialect": "unknown",
+      "partOfSpeech": "preposition, particle",
+      "meaning": "since (elapsed time)",
+      "unofficial": true
+    },
+    {
+      "word": "xest",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "change, transform"
+    },
+    {
+      "word": "xevxl",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "despair",
+      "unofficial": true
+    },
+    {
+      "word": "xl",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "ever since (relative to an event)"
+    },
+    {
+      "word": "xorg",
+      "dialect": "unknown",
+      "partOfSpeech": "adjective",
+      "meaning": "proud",
+      "unofficial": true
+    },
+    {
+      "word": "y.m.q.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "bear fruit, rpien"
+    },
+    {
+      "word": "y.y.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "heal, cure"
+    },
+    {
+      "word": "y.z.t.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "wish, request"
+    },
+    {
+      "word": "yaha",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "laugh, smile"
+    },
+    {
+      "word": "yanje",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "always, forever"
+    },
+    {
+      "word": "yant",
+      "dialect": "metafalss",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "fearful"
+    },
+    {
+      "word": "yanwe",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "treat with care, respect"
+    },
+    {
+      "word": "yanyaue",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "important, valuable"
+    },
+    {
+      "word": "yart",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "chance encounter"
+    },
+    {
+      "word": "yaserwe",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "relax"
+    },
+    {
+      "word": "yasra",
+      "dialect": "metafalss",
+      "partOfSpeech": "adjective",
+      "meaning": "kind, gentle"
+    },
+    {
+      "word": "yassa",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "complete, achieve"
+    },
+    {
+      "word": "yatse",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "support (emotionally)"
+    },
+    {
+      "word": "yea",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "happy"
+    },
+    {
+      "word": "yeal",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "line, cable, connection"
+    },
+    {
+      "word": "yeeel",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective",
+      "meaning": "far, distant"
+    },
+    {
+      "word": "yehah",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "good fortune"
+    },
+    {
+      "word": "yehar",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "clear, empty, erase (as in memory)"
+    },
+    {
+      "word": "yerwe",
+      "dialect": "metafalss",
+      "partOfSpeech": "verb",
+      "meaning": "vocalize (produce vocal sound)"
+    },
+    {
+      "word": "yesse",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "rear, raise",
+      "unofficial": true
+    },
+    {
+      "word": "yetere",
+      "dialect": "central",
+      "partOfSpeech": "conjunction",
+      "meaning": "if (x) then (y)"
+    },
+    {
+      "word": "yor",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "you"
+    },
+    {
+      "word": "yora",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "you (plural)"
+    },
+    {
+      "word": "yorr",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "you (subject)"
+    },
+    {
+      "word": "yorra",
+      "dialect": "central",
+      "partOfSpeech": "pronoun",
+      "meaning": "you (subject, plural)"
+    },
+    {
+      "word": "yos",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "your"
+    },
+    {
+      "word": "yosyua",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "comfort, console, amuse"
+    },
+    {
+      "word": "yuez",
+      "dialect": "central",
+      "partOfSpeech": "adverb",
+      "meaning": "mutually"
+    },
+    {
+      "word": "yulun",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "dissolve, homogenise",
+      "unofficial": true
+    },
+    {
+      "word": "yura",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "balance"
+    },
+    {
+      "word": "z.z.x.",
+      "dialect": "pastalia",
+      "partOfSpeech": "Emotion Verb",
+      "meaning": "despair"
+    },
+    {
+      "word": "zaam",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "sea, ocean",
+      "unofficial": true
+    },
+    {
+      "word": "zadius",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "hatred"
+    },
+    {
+      "word": "zaffur",
+      "dialect": "unknown",
+      "partOfSpeech": "verb",
+      "meaning": "struggle, oppose",
+      "unofficial": true
+    },
+    {
+      "word": "zahha",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "verb",
+      "meaning": "advance, progress",
+      "description": "Used in the context of groups; for individuals, use \"faja\"."
+    },
+    {
+      "word": "zalez",
+      "dialect": "pastalia",
+      "partOfSpeech": "noun",
+      "meaning": "waterfall"
+    },
+    {
+      "word": "zarle",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "fall (as in rain)"
+    },
+    {
+      "word": "zarnn",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "storm, tempest",
+      "unofficial": true
+    },
+    {
+      "word": "zash",
+      "dialect": "central",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "pain, painful"
+    },
+    {
+      "word": "zassyen",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "swim"
+    },
+    {
+      "word": "zauve",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "clever, sagacious, cleverness"
+    },
+    {
+      "word": "zeeth",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "chain"
+    },
+    {
+      "word": "zenva",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "rise above, transcend"
+    },
+    {
+      "word": "zess",
+      "dialect": "pastalia",
+      "partOfSpeech": "adverb",
+      "meaning": "like"
+    },
+    {
+      "word": "zethpa",
+      "dialect": "central",
+      "partOfSpeech": "verb",
+      "meaning": "slash, cut"
+    },
+    {
+      "word": "zetsfy",
+      "dialect": "cult-ciel",
+      "partOfSpeech": "noun",
+      "meaning": "cruelty, harshness"
+    },
+    {
+      "word": "zixxa",
+      "dialect": "unknown",
+      "partOfSpeech": "noun",
+      "meaning": "attitude, disposition, spirit",
+      "unofficial": true
+    },
+    {
+      "word": "zodal",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun, verb",
+      "meaning": "death of, process of dying"
+    },
+    {
+      "word": "zodaw",
+      "dialect": "metafalss",
+      "partOfSpeech": "noun",
+      "meaning": "death"
+    },
+    {
+      "word": "zuieg",
+      "dialect": "alpha-eolia",
+      "partOfSpeech": "adjective, noun",
+      "meaning": "authority, jurisdiction"
+    },
+    {
+      "word": "zweie",
+      "dialect": "central",
+      "partOfSpeech": "Emotion Sound (II)",
+      "meaning": "determined, sincere"
+    },
+    {
+      "word": "zwihander",
+      "dialect": "central",
+      "partOfSpeech": "noun",
+      "meaning": "victory, win"
+    },
+    {
+      "word": "zz",
+      "dialect": "pastalia",
+      "partOfSpeech": "adverb",
+      "meaning": "negation"
+    }
+  ],
+  "emotionSounds": [
+    {
+      "phrase": "apea",
+      "meaning": "blessed, bathed in happiness",
+      "category": "joy"
+    },
+    {
+      "phrase": "au",
+      "meaning": "sad",
+      "category": "sorrow"
+    },
+    {
+      "phrase": "erra",
+      "meaning": "I want this to continue forever",
+      "category": "joy"
+    },
+    {
+      "phrase": "Fou",
+      "meaning": "a little",
+      "category": "neutral"
+    },
+    {
+      "phrase": "ga",
+      "meaning": "I want this to stop",
+      "category": "anger"
+    },
+    {
+      "phrase": "gagis",
+      "meaning": "I am indifferent",
+      "category": "neutral"
+    },
+    {
+      "phrase": "gaya",
+      "meaning": "I never want this to happen again",
+      "category": "anger"
+    },
+    {
+      "phrase": "granme",
+      "meaning": "wanting to protect, brave",
+      "category": "love"
+    },
+    {
+      "phrase": "guwo",
+      "meaning": "angry, resentful",
+      "category": "anger"
+    },
+    {
+      "phrase": "i",
+      "meaning": "impatient",
+      "category": "anger"
+    },
+    {
+      "phrase": "jyel",
+      "meaning": "lonely",
+      "category": "sorrow"
+    },
+    {
+      "phrase": "ki",
+      "meaning": "focused, concentrating",
+      "category": "focus"
+    },
+    {
+      "phrase": "lau",
+      "meaning": "fear, dread",
+      "category": "fear"
+    },
+    {
+      "phrase": "Ma",
+      "meaning": "discretionary",
+      "category": "neutral"
+    },
+    {
+      "phrase": "Nn",
+      "meaning": "reluctant",
+      "category": "sorrow"
+    },
+    {
+      "phrase": "num",
+      "meaning": "nil",
+      "category": "neutral"
+    },
+    {
+      "phrase": "paks",
+      "meaning": "excited, nervous",
+      "category": "fear"
+    },
+    {
+      "phrase": "quel",
+      "meaning": "eager, desperate",
+      "category": "fear"
+    },
+    {
+      "phrase": "ra",
+      "meaning": "I want this to continue",
+      "category": "joy"
+    },
+    {
+      "phrase": "Rrha",
+      "meaning": "trance-like",
+      "category": "focus"
+    },
+    {
+      "phrase": "touwaka",
+      "meaning": "hopeful",
+      "category": "joy"
+    },
+    {
+      "phrase": "wa",
+      "meaning": "I can tolerate this",
+      "category": "neutral"
+    },
+    {
+      "phrase": "waa",
+      "meaning": "happy",
+      "category": "joy"
+    },
+    {
+      "phrase": "Was",
+      "meaning": "very much",
+      "category": "neutral"
+    },
+    {
+      "phrase": "Wee",
+      "meaning": "reasonable",
+      "category": "neutral"
+    },
+    {
+      "phrase": "wol",
+      "meaning": "fervourous",
+      "category": "focus"
+    },
+    {
+      "phrase": "yant",
+      "meaning": "fearful",
+      "category": "fear"
+    },
+    {
+      "phrase": "yea",
+      "meaning": "happy",
+      "category": "joy"
+    },
+    {
+      "phrase": "zweie",
+      "meaning": "determined, sincere",
+      "category": "focus"
+    }
+  ],
+  "builtAt": "2026-05-02T13:45:02.026Z",
+  "sourceCommit": "75f5f4a8172ed9d22ab1e03e269c174ae8c98621"
+}

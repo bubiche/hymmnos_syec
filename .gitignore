@@ -1,0 +1,7 @@
+node_modules/
+dist/
+
+# Vendored upstream content. Re-fetch via:
+#   git clone https://github.com/flan/hymmnoserver.git
+#   cp hymmnoserver/database/hymmnoserver.mysqldump data/upstream/
+data/upstream/*.mysqldump

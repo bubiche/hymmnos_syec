@@ -26,8 +26,6 @@ Live: <https://bubiche.github.io/hymmnos_syec/>
 - Hover or tap any word for the full dictionary entry across every matching
   dialect.
 
-The full feature scope and v2 candidates live in [PLAN.md](./PLAN.md).
-
 ## Local development
 
 This project pins pnpm via `.tool-versions`.

@@ -6,7 +6,7 @@
 //
 // Emotion-sound tokens wrap that same column in a category-coloured pill.
 // `EmotionSound` doesn't carry a dialect, so they default to the Hymmnos
-// font — fine for v1 since the only cult-ciel emotion sound (`apea`) is
+// font — fine for now since the only cult-ciel emotion sound (`apea`) is
 // rare and still readable in the Hymmnos glyph set.
 //
 // Markers, punctuation, unknowns: same column shape with empty glyph and

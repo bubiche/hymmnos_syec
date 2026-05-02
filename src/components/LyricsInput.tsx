@@ -1,4 +1,4 @@
-// Controlled textarea — the only user input in v1. Annotation runs live on
+// Controlled textarea — the only user input. Annotation runs live on
 // every keystroke via App's debounced pipeline (no submit button by design).
 
 import type { JSX } from "preact";

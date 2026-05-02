@@ -12,8 +12,7 @@
 // Voice colours come from a small fixed palette chosen to read distinctly
 // against the dark background and not collide with the seven emotion-sound
 // pill hues used by `<AnnotatedView>` (amber/sky/rose/violet/pink/teal/
-// stone). Anything beyond the palette length wraps modulo — fine for v1
-// since 2 voices is the only case in scope.
+// stone). Anything beyond the palette length wraps modulo.
 
 import { AnnotatedView } from "./AnnotatedView.tsx";
 import type { AnnotatedSegment } from "../lib/pipeline.ts";

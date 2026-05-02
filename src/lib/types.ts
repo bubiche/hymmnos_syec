@@ -13,6 +13,10 @@ export type Entry = {
   word: string;
   dialect: Dialect;
   unofficial?: boolean;
+  // Upstream class int (1–25). Persisted because the v2 syntax parser
+  // matches by class via `SYNTAX_MAPPING` in lex.ts; the human-readable
+  // partOfSpeech is the projection used by the renderer.
+  classCode: number;
   partOfSpeech: string;
   meaning: string;
   description?: string;

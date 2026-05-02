@@ -10,7 +10,7 @@ import type {
   AnnotatedToken, Dialect, Entry, Token,
 } from "./types.ts";
 
-const DIALECT_PRIORITY: readonly Dialect[] = [
+export const DIALECT_PRIORITY: readonly Dialect[] = [
   "central",
   "pastalia",
   "metafalss",
@@ -21,7 +21,7 @@ const DIALECT_PRIORITY: readonly Dialect[] = [
   "unknown",
 ];
 
-function pickPrimary(entries: Entry[]): Entry {
+export function pickPrimary(entries: Entry[]): Entry {
   for (const dialect of DIALECT_PRIORITY) {
     const matches = entries.filter((e) => e.dialect === dialect);
     if (matches.length === 0) continue;

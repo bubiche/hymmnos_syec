@@ -3,9 +3,8 @@
 // spelling resolves to several dialect variants. All other kinds pass
 // through unchanged so the renderer can keep using the discriminant.
 //
-// Primary selection follows the dialect priority below (Central first, on
-// the rationale from PLAN.md's open question), with the official entry
-// preferred over a `+50` unofficial variant inside the same dialect.
+// Primary selection follows the dialect priority below (Central first),
+// with the official entry preferred over a `+50` unofficial variant inside the same dialect.
 
 import type {
   AnnotatedToken, Dialect, Entry, Token,

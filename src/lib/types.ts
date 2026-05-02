@@ -45,7 +45,22 @@ export type GeneralDecorations = {
 
 export type Decorations = EmotionVerbDecorations | GeneralDecorations;
 
-export type BinasphereSegment = { voice: number | null; text: string };
+export type BinasphereBlock = {
+  voiceCount: number;
+  pattern: number[];
+  // Original interleaved syllables in input order, each tagged with the
+  // voice that consumed it. The renderer's reference strip shows these
+  // colour-coded by `voice` so the user can see how the encoded form maps
+  // to each decoded voice.
+  interleaved: { token: string; voice: number }[];
+};
+
+export type BinasphereSegment =
+  | { voice: null; text: string }
+  // All voice segments of the same Binasphere block share the same `block`
+  // reference, so the renderer can group consecutive voice segments into a
+  // single side-by-side view by reference equality.
+  | { voice: number; text: string; block: BinasphereBlock };
 
 export type Token =
   | { kind: "emotion-sound"; text: string; entry: EmotionSound }

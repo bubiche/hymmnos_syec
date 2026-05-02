@@ -22,7 +22,12 @@
 // Real Hymmnos has at most one Binasphere block per song; revisit if/when
 // that stops being true.
 
-import type { BinasphereSegment } from "./types.ts";
+import type { BinasphereBlock, BinasphereSegment } from "./types.ts";
+
+type DecodedLine = {
+  voices: string[];
+  block: BinasphereBlock;
+};
 
 // Mirrors upstream's _BINASPHERE_REGEXP. Lazy `(.+?)` for the body so
 // `EXEC hymme` is the right anchor; `\s+` and `\s*` instead of fixed-space
@@ -32,7 +37,7 @@ import type { BinasphereSegment } from "./types.ts";
 const BINASPHERE_REGEXP =
   /^=>(.+?)EXEC[ _]hymme\s+(\d*[1-9])x1\/0\s*>>\s*((?:\d+\s*)+)$/i;
 
-function tryDecodeLine(line: string): string[] | null {
+function tryDecodeLine(line: string): DecodedLine | null {
   const m = BINASPHERE_REGEXP.exec(line.trimEnd());
   if (!m) return null;
 
@@ -58,11 +63,13 @@ function tryDecodeLine(line: string): string[] | null {
 
   const buffers: string[][] = Array.from({ length: size }, () => []);
   const words: string[][] = Array.from({ length: size }, () => []);
+  const interleaved: { token: string; voice: number }[] = [];
 
   let ti = 0;
   while (ti < tokens.length) {
     for (const voice of pattern) {
       const fragment = tokens[ti++]!;
+      interleaved.push({ token: fragment, voice });
       if (fragment.endsWith("x") || fragment.endsWith("X")) {
         buffers[voice]!.push(fragment.slice(0, -1));
       } else {
@@ -78,7 +85,10 @@ function tryDecodeLine(line: string): string[] | null {
     if (buf.length > 0) return null;
   }
 
-  return words.map((w) => w.join(" "));
+  return {
+    voices: words.map((w) => w.join(" ")),
+    block: { voiceCount: size, pattern, interleaved },
+  };
 }
 
 export function decode(input: string): BinasphereSegment[] {
@@ -96,7 +106,11 @@ export function decode(input: string): BinasphereSegment[] {
     const decoded = tryDecodeLine(line);
     if (decoded) {
       flush();
-      decoded.forEach((text, voice) => result.push({ voice, text }));
+      // Same `block` reference on every voice segment — the renderer groups
+      // by reference equality to render the side-by-side BinasphereView.
+      decoded.voices.forEach((text, voice) => {
+        result.push({ voice, text, block: decoded.block });
+      });
     } else {
       buffer.push(line);
     }

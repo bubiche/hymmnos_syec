@@ -2,7 +2,7 @@
 // is preserved as its own kind and `text` always carries the user's original
 // casing — lookups are case-insensitive but display is not.
 //
-// Priority at each position (per PLAN.md step 5):
+// Priority at each position:
 //   emotion-sound phrase (longest case-insensitive match, word-bounded)
 //   → special-char dictionary entry (`Re=Nation`, `U-TA`, `<-x`, ...)
 //   → morphology lookup (tryEmotionVerb, then tryGeneralWord)

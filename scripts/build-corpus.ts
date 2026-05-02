@@ -30,6 +30,7 @@ type Entry = {
   word: string;          // for Pastalia emotion verbs, dots mark bank slots
   dialect: Dialect;
   unofficial?: boolean;
+  classCode: number;     // upstream class int (1–25), needed by the syntax parser
   partOfSpeech: string;
   meaning: string;
   description?: string;
@@ -199,6 +200,7 @@ function buildEntry(row: SqlValue[]): Entry {
   const entry: Entry = {
     word: fixMojibake(word),
     dialect,
+    classCode,
     partOfSpeech,
     meaning: fixMojibake(meaning),
   };

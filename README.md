@@ -3,11 +3,13 @@
 An annotated reader for Hymmnos, the constructed language of song magic from
 the *Ar Tonelico* video game series. Paste a Hymmn and get an interlinear
 gloss with emotion-sound highlighting, hover-for-definition popovers, and
-Binasphere Chorus decoding.
+Binasphere Chorus decoding. This is heavily vibe-coded. 
 
 Live: <https://bubiche.github.io/hymmnos_syec/>
 
-![syec screenshot](docs/screenshot.png)
+![Binasphere Chorus block decoded into side-by-side voices](docs/screenshot_binasphere.png)
+
+![Persistent Emotion Sounds block with yellow indicator bar](docs/screenshot_pes.png)
 
 ## What it does
 
@@ -21,6 +23,14 @@ Live: <https://bubiche.github.io/hymmnos_syec/>
 - Decodes 2-voice Binasphere Chorus blocks (lines starting with `=>` and
   ending in `EXEC hymme Nx1/0>>pattern`) into side-by-side voice columns plus
   the original interleaved reference strip.
+- Parses each sentence into a phrase tree (NP, VP, EVP, ESP, SP, PP, TP, AP,
+  …) and wraps the matched tokens in nested tinted boxes — a port of the
+  upstream `grammar.py`. A header toggle hides the boxes for a clean v1
+  flat-token view.
+- Recognises Persistent Emotion Sound blocks bracketed by `0x vvi.` and
+  `1x AAs ixi.`: every body line inside the block parses as if the declared
+  emotion-sound triple were prepended, and the row is marked with a yellow
+  side bar so the persistent emotion is visible at a glance.
 - Colours emotion-sound prefixes by category (joy / sorrow / anger / focus /
   love / fear / neutral) so the speaker's tone is visible at a glance.
 - Hover or tap any word for the full dictionary entry across every matching

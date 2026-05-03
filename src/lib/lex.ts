@@ -1,7 +1,5 @@
 // Lexical-class and dialect constants ported from upstream `common/syntax.py`
-// at commit 75f5f4a8 (lines 44–66, 525–562). The v2 syntax parser matches
-// tokens by class via SYNTAX_MAPPING and by exact `(word, dialectInt)` via
-// DIALECT_INT, so these have to align bit-for-bit with upstream.
+// at commit 75f5f4a8 (lines 44–66, 525–562).
 
 import type { Dialect } from "./types.ts";
 

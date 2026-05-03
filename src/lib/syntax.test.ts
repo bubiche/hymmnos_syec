@@ -147,6 +147,114 @@ test("trailing punctuation is ignored", () => {
   assert.ok(tree, "trailing period must not break the parse");
 });
 
+// ----- EXEC_CHRONICLE_KEY/. fixtures -----------------------------------
+// ----- Six lines from EXEC_CHRONICLE=KEY/. via Tsuchiya's "Hymmnos
+// ----- Chronicle" liner notes (transcribed at
+// ----- harrietsiannzoey.wordpress.com/hymmnos-chronicle/exec_chroniclekey-lyune-extracting/),
+// ----- each oracle-pinned against the live grammar.py at
+// ----- hymmnoserver.uguu.ca/syntax-xml.py on 2026-05-03. The XML element
+// ----- names are unreduced fragments (cp/esp/ntp/sgp/anp/avp/aap/...);
+// ----- the oracle shapes below are the same trees post `PHRASE_REDUCTION`
+// ----- (so NTP→NP, AnP/AvP/AaP→AP, SgP/NsP→SP/NP). Multi-clause source
+// ----- lines that the page renders with comma breaks are exercised here
+// ----- one clause at a time, since `parseLine` rejects multi-sentence
+// ----- input via the strict coverage gate (each comma clause is the
+// ----- subject of its own oracle round-trip).
+
+test("EXEC_CHRONICLE_KEY/.: 'Was ki ra selena sos yor ware fandel nuih' → multi-TP VP", () => {
+  // Two transitive prepositional phrases hang off the verb (`sos yor`,
+  // `ware fandel nuih`), and `fandel` becomes an AP[adj] complement
+  // before the head noun `nuih`.
+  const { tokens, tree } = parse("Was ki ra selena sos yor ware fandel nuih");
+  assert.ok(tree, "expected a parse");
+  assert.deepEqual(shape(tree, tokens), [
+    "CP",
+    ["ESP", "Was", "ki", "ra"],
+    ["VP", "selena",
+      ["TP", "sos", ["NP", "yor"]],
+      ["TP", "ware", ["NP", ["AP", "fandel"], "nuih"]],
+    ],
+  ]);
+});
+
+test("EXEC_CHRONICLE_KEY/.: 'Was ki ra sonwe anw la omnis near' → AP with two adjectives", () => {
+  // `la` is class 8 (adj+ESii) and `omnis` is class 8 (adj+ESii); both
+  // collapse into a single AP modifying `near`.
+  const { tokens, tree } = parse("Was ki ra sonwe anw la omnis near");
+  assert.ok(tree, "expected a parse");
+  assert.deepEqual(shape(tree, tokens), [
+    "CP",
+    ["ESP", "Was", "ki", "ra"],
+    ["VP", "sonwe",
+      ["TP", "anw", ["NP", ["AP", "la", "omnis"], "near"]],
+    ],
+  ]);
+});
+
+test("EXEC_CHRONICLE_KEY/.: 'Was quel ra presia bexm dauan oure yasra' → AvP + post-TP AaP", () => {
+  // `presia` (adv) wraps as AP before the verb; trailing `oure yasra`
+  // (adv + adj) becomes a post-TP AP complement on the VP. Exercises both
+  // pre-verb and post-object adjuncts within a single VP.
+  const { tokens, tree } = parse("Was quel ra presia bexm dauan oure yasra");
+  assert.ok(tree, "expected a parse");
+  assert.deepEqual(shape(tree, tokens), [
+    "CP",
+    ["ESP", "Was", "quel", "ra"],
+    ["VP",
+      ["AP", "presia"],
+      "bexm",
+      ["TP", ["NP", "dauan"]],
+      ["AP", "oure", "yasra"],
+    ],
+  ]);
+});
+
+test("EXEC_CHRONICLE_KEY/.: 'Wee au ga presia slepir ware eterne' → cross-dialect ESP", () => {
+  // Mixed-dialect ESP: `Wee`/`ga` are Central, `au` is Alpha-EOLIA. Pinned
+  // to confirm dialect-int 7 (alpha-eolia) round-trips through the parser
+  // without breaking the ESP coverage check.
+  const { tokens, tree } = parse("Wee au ga presia slepir ware eterne");
+  assert.ok(tree, "expected a parse");
+  assert.deepEqual(shape(tree, tokens), [
+    "CP",
+    ["ESP", "Wee", "au", "ga"],
+    ["VP",
+      ["AP", "presia"],
+      "slepir",
+      ["TP", "ware", ["NP", "eterne"]],
+    ],
+  ]);
+});
+
+test("EXEC_CHRONICLE_KEY/.: 'rre sarla has echrra elle dor' → SgP subject + VP", () => {
+  // Subject-marked sentence (no ESP). `rre` + nested NP[sarla, NP[has]]
+  // forms the subject phrase; the VP follows with a TP[elle, dor].
+  // Exercises the SgP path and the recursive NP[head, NP[possessor]]
+  // construction.
+  const { tokens, tree } = parse("rre sarla has echrra elle dor");
+  assert.ok(tree, "expected a parse");
+  assert.deepEqual(shape(tree, tokens), [
+    "CP",
+    ["SP", "rre", ["NP", "sarla", ["NP", "has"]]],
+    ["VP", "echrra", ["TP", "elle", ["NP", "dor"]]],
+  ]);
+});
+
+test("EXEC_CHRONICLE_KEY/.: 'Was quel ra waath sarla nnoini' → bare-TP NP nesting", () => {
+  // Direct-object TP without a preposition: `waath sarla nnoini` parses
+  // as VP[waath, TP[NP[sarla, NP[nnoini]]]]. Confirms NP recursion fires
+  // even when the TP has no leading prep marker.
+  const { tokens, tree } = parse("Was quel ra waath sarla nnoini");
+  assert.ok(tree, "expected a parse");
+  assert.deepEqual(shape(tree, tokens), [
+    "CP",
+    ["ESP", "Was", "quel", "ra"],
+    ["VP", "waath",
+      ["TP", ["NP", "sarla", ["NP", "nnoini"]]],
+    ],
+  ]);
+});
+
 test("DIALECT_PRIORITY puts central first in entries[]", () => {
   // The AaP/AalP guard at upstream syntax.py 813-823 inspects only the
   // FIRST candidate of the head word. Our annotate.ts orders entries

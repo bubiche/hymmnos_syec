@@ -108,14 +108,10 @@ const PASTALIE_AST: ASTRule = ["_all",
   ["_any", LEX_INTJ],
 ];
 
-// Upstream exact-match strings use `'%s$%i' % (word, _DLCT_*)`. Build them
-// here from the dialect ints so a dialect-int drift in lex.ts surfaces
-// loudly via test failures rather than as silent miss-matches.
 const D_C = DIALECT_INT.central;
 const D_M = DIALECT_INT.metafalss;
 const D_P = DIALECT_INT.pastalia;
 
-// Upstream syntax.py lines 129-432.
 const AST_FRAGMENTS: Record<string, ASTRule> = {
   AaP: ["_all",
     ["_one", LEX_ADV, LEX_ADJ],
@@ -421,7 +417,7 @@ const AST_FRAGMENTS: Record<string, ASTRule> = {
   ],
 };
 
-// Upstream syntax.py lines 434-460. Maps internal phrase fragment names
+// Maps internal phrase fragment names
 // to the public reduced phrase IDs.
 const PHRASE_REDUCTION: Record<string, PhraseId> = {
   AaP: "AP", AavP: "AP", AnP: "AP", AnpP: "AP", AvP: "AP",

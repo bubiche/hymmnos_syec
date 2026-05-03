@@ -200,6 +200,26 @@ test("byLine keys index the raw \\n-split input", () => {
   assert.equal([...byLine.keys()].sort((a, b) => a - b).join(","), "1,2,3");
 });
 
+// ----- Whitespace tolerance ----------------------------------------------
+
+test("indented header / footer (leading whitespace) still detected", () => {
+  // Diverges from upstream's strict regex. A user pasting an indented
+  // block from a markdown source or a code editor must not have the
+  // whole PES block silently rejected because of leading spaces.
+  const input = ["  " + HEADER, "  chs hymmnos", "  " + FOOTER].join("\n");
+  const { byLine } = expandPesBlocks(input, corpus);
+  assert.equal(byLine.get(0)?.role, "header");
+  assert.equal(byLine.get(1)?.role, "body");
+  assert.equal(byLine.get(2)?.role, "footer");
+});
+
+test("trailing whitespace on header / footer still detected", () => {
+  const input = [HEADER + "  ", "chs hymmnos", FOOTER + "\t"].join("\n");
+  const { byLine } = expandPesBlocks(input, corpus);
+  assert.equal(byLine.get(0)?.role, "header");
+  assert.equal(byLine.get(2)?.role, "footer");
+});
+
 // ----- Casing -------------------------------------------------------------
 
 test("header words use corpus canonical casing in PesContext", () => {

@@ -16,11 +16,6 @@
 // through as `{voice: null, text: line}` or expands a Binasphere line into
 // one segment per voice. Adjacent non-Binasphere lines are coalesced so the
 // downstream tokenizer sees them as a single string.
-//
-// v2 follow-up: the flat segment array can't distinguish voice 0 of
-// block A from voice 0 of block B if a single input contains two blocks.
-// Real Hymmnos has at most one Binasphere block per song; revisit if/when
-// that stops being true.
 
 import type { BinasphereBlock, BinasphereSegment } from "./types.ts";
 

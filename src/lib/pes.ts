@@ -25,15 +25,21 @@
 //     bucket). We invert: bad header word → block malformed → passthrough,
 //     because the user is mid-typing and unrecognized header words are far
 //     more common than truly invalid Pastalia. Missing footer is also
-//     malformed → passthrough (no exception; renderer falls through to v1).
+//     malformed → passthrough (no exception; renderer falls through to flat-token rendering).
 
 import { pickPrimary } from "./annotate.ts";
 import type { Corpus, Entry } from "./types.ts";
 
 // `_PERSISTANT_START_REGEXP` from upstream transformations.py line 31.
-const HEADER_REGEXP = /^([A-Za-z]+) ([A-Za-z]+) ([A-Za-z]+) 0x vvi\.$/;
-// `_PERSISTANT_END_REGEXP` from upstream line 32.
-const FOOTER_REGEXP = /^1x AAs ixi\.$/;
+// Diverges from upstream in tolerating leading/trailing whitespace —
+// upstream's regex is strict and assumes well-formed pre-tokenized input,
+// but in a live editor users paste indented blocks all the time and a
+// single leading space silently breaks the block. The interior of the
+// match is still strict ("0x vvi." literal, three alpha-only words).
+const HEADER_REGEXP = /^\s*([A-Za-z]+) ([A-Za-z]+) ([A-Za-z]+) 0x vvi\.\s*$/;
+// `_PERSISTANT_END_REGEXP` from upstream line 32; same whitespace
+// tolerance as the header regex.
+const FOOTER_REGEXP = /^\s*1x AAs ixi\.\s*$/;
 
 export type PesContext = {
   // Canonical word forms taken from the corpus when the header word resolves
@@ -199,7 +205,7 @@ export function expandPesBlocks(input: string, corpus: Corpus): PesExpansion {
     }
     if (footer === -1) {
       // Unterminated block → malformed, fall through. The user may still
-      // be typing the body; v1 rendering will hold until they close it.
+      // be typing the body.
       i++;
       continue;
     }

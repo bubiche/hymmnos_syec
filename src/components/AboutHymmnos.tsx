@@ -8,11 +8,20 @@
 
 import type { ComponentChildren } from "preact";
 
-import { CATEGORY_PILL } from "./AnnotatedView.tsx";
+import { CATEGORY_PILL, PHRASE_PALETTE } from "./AnnotatedView.tsx";
+import type { PhraseId } from "../lib/syntax.ts";
 import type { EmotionCategory } from "../lib/types.ts";
 
 const CATEGORIES: EmotionCategory[] = [
   "joy", "sorrow", "anger", "focus", "love", "fear", "neutral",
+];
+
+// 11 phrase types shown in the legend; MP is in the public PhraseId type
+// for completeness but never produced by the current AST, so we omit it.
+// Order: roughly outer-to-inner / sentence-level to leaf-level so the
+// legend reads as a top-down decomposition.
+const PHRASE_LEGEND: PhraseId[] = [
+  "CP", "ESP", "SP", "SVP", "VP", "EVP", "TP", "EOP", "NP", "AP", "PP",
 ];
 
 function Section({
@@ -108,6 +117,42 @@ export function AboutHymmnos() {
           </p>
         </Section>
 
+        <Section title="Phrase types">
+          <p>
+            When a line parses cleanly, the reader wraps each phrase in a
+            tinted box with a short type badge. Phrases nest: the outer
+            sentence box contains its emotion-sound prefix, then a verb or
+            emotion-verb phrase, then objects and modifiers. You can toggle
+            the boxes off with the checkbox in the header.
+          </p>
+          <p>
+            The eleven types you'll see, roughly from sentence root inward:
+          </p>
+          <ul class="flex flex-wrap gap-2">
+            {PHRASE_LEGEND.map((id) => {
+              const palette = PHRASE_PALETTE[id];
+              return (
+                <li
+                  key={id}
+                  class={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded ${palette.box}`}
+                >
+                  <span
+                    class={`text-[10px] font-semibold uppercase tracking-wider ${palette.badge}`}
+                  >
+                    {id}
+                  </span>
+                  <span class="text-[12px] text-stone-300">{palette.name}</span>
+                </li>
+              );
+            })}
+          </ul>
+          <p>
+            Lines that don't fully parse — partial input mid-edit, malformed
+            grammar, or unknown words — fall back to the flat token row with
+            no boxes. As you finish typing a sentence, the boxes pop in.
+          </p>
+        </Section>
+
         <Section title="Grammar basics">
           <p>
             A typical Hymmnos sentence opens with an{" "}
@@ -160,6 +205,35 @@ export function AboutHymmnos() {
             them." A complete Pastalia sentence might be{" "}
             <em>cEzE hymmnos/.</em> — "I am delighted to express myself through
             song."
+          </p>
+        </Section>
+
+        <Section title="Persistent Emotion Sounds">
+          <p>
+            Long Hymmns sometimes share one emotion-sound prefix across many
+            sentences instead of repeating it on every line. The block
+            opens with the declared triple followed by{" "}
+            <code class="font-mono text-xs">0x vvi.</code> and closes with{" "}
+            <code class="font-mono text-xs">1x AAs ixi.</code> — for example:
+          </p>
+          <pre class="text-xs leading-snug bg-stone-950/60 border border-stone-800 rounded p-2 overflow-x-auto">
+{`Was yea ra 0x vvi.
+chs hymmnos rudje
+Wee ki ra kalla en yor
+1x AAs ixi.`}
+          </pre>
+          <p>
+            Every body line inside the block parses <em>as if</em> the
+            declared triple were prepended, so{" "}
+            <em>chs hymmnos rudje</em> reads as{" "}
+            <em>Was yea ra chs hymmnos rudje</em> — a complete sentence — and
+            shows up with the same phrase boxes it would in the un-shortened
+            form. The triple isn't drawn into the body row (the prefix is
+            implicit, not literally written), but the reader marks every line
+            inside the block with a yellow left bar so you can see the
+            persistent emotion at a glance. If a body line embeds another
+            ES(I) word, the parser splits there and the second half gets the
+            same prefix re-applied — that's a sentence break.
           </p>
         </Section>
 

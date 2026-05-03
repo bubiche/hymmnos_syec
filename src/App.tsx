@@ -15,16 +15,17 @@ import type { Corpus } from "./lib/types.ts";
 
 const corpus = corpusJson as Corpus;
 
-// Real Hymmnos sample — 2-voice Binasphere block, pattern 01101010
-// (8 cycle positions × 8 cycles = 64 syllable tokens). Decodes to:
-//   voice 0: Rrha apea gagis gran paul nosaash yanje en ini ar ciel /
-//            Rrha apea ra hartes yora chyet walasye forgandal wassa ciel
-//   voice 1: Rrha guwo gagis tie innna gatyuny ini ar ciel la zahha /
-//            Rrha guwo ga gatyuny ar ciel en ini sor gatyunla art sa fayra
-// Followed by two Pastalia exercise lines that hit the emotion-verb +
-// emotion-vowel-prefix decoration paths in `<AnnotatedView>`.
+// 2-voice Binasphere block with both voices oracle-pinned to parse — 6
+// syllables per voice, alternating pattern `01`. Decodes to:
+//   voice 0: Was yea ra chs hymmnos mea
+//   voice 1: Wee ki ra chs ieeya ciel
+// The original upstream-docs sample decoded to long multi-sentence
+// voices that fell back to flat rendering even after the per-voice
+// sentence split — this one demonstrates the phrase-tree feature inside
+// the Binasphere column. Followed by two standalone lines that exercise
+// the Pastalia emotion-verb + emotion-vowel-prefix decoration paths.
 const SAMPLE = [
-  "=> RRHA RRHA GUWO Ax GAx PEx GIS A GAx TIE INNx GIS NA GRAN GAx PAUL NOx TYUNY INI SAASH AR YANJE CIEL EN INI LA ZAx AR HHA CIEL RRHA RRHA Ax GUWO GA PEx GAx A TYUNY RA HARx AR CIEL TES EN YORA INI CHYET WAx SOR GAx LAx TYUNx SYE LA FORx GANx ART SA DAL FAYx WASSA RA CIEL EXEC hymme 2x1/0>>01101010",
+  "=> Was Wee yea ki ra ra chs chs hymmnos ieeya mea ciel EXEC hymme 2x1/0>>01",
   "Was yea ra chs hymmnos mea.",
   "aOuk Yacia.",
 ].join("\n");
@@ -41,6 +42,7 @@ function useDebounced<T>(value: T, delayMs: number): T {
 
 export function App() {
   const [input, setInput] = useState(SAMPLE);
+  const [showSyntaxTree, setShowSyntaxTree] = useState(true);
   const debounced = useDebounced(input, DEBOUNCE_MS);
   const groups = useMemo(
     () => annotateInput(debounced, corpus),
@@ -59,6 +61,17 @@ export function App() {
           <h1 class="text-3xl font-semibold leading-none">syec</h1>
           <p class="text-sm text-stone-400">annotated Hymmnos lyrics reader</p>
         </div>
+        <label class="ml-auto inline-flex items-center gap-2 text-sm text-stone-300 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={showSyntaxTree}
+            onChange={(e) =>
+              setShowSyntaxTree((e.currentTarget as HTMLInputElement).checked)
+            }
+            class="h-4 w-4 accent-stone-400"
+          />
+          Show syntax tree
+        </label>
       </header>
 
       <AboutHymmnos />
@@ -68,9 +81,18 @@ export function App() {
       <section class="space-y-6">
         {groups.map((g, gi) =>
           g.kind === "block" ? (
-            <BinasphereView key={gi} block={g.block} voices={g.voices} />
+            <BinasphereView
+              key={gi}
+              block={g.block}
+              voices={g.voices}
+              showTree={showSyntaxTree}
+            />
           ) : (
-            <AnnotatedView key={gi} segment={g.segment} />
+            <AnnotatedView
+              key={gi}
+              segment={g.segment}
+              showTree={showSyntaxTree}
+            />
           ),
         )}
       </section>

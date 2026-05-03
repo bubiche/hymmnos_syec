@@ -6,8 +6,7 @@
 //
 // Layout: a flex-wrap row with each voice claiming `min-w-[260px]`. On
 // narrow screens that means one voice per row (vertical stack); on wider
-// screens 2+ fit side-by-side, which scales naturally if Quatrasphere
-// lands in v2.
+// screens 2+ fit side-by-side.
 //
 // Voice colours come from a small fixed palette chosen to read distinctly
 // against the dark background and not collide with the seven emotion-sound
@@ -21,6 +20,7 @@ import type { BinasphereBlock } from "../lib/types.ts";
 type Props = {
   block: BinasphereBlock;
   voices: AnnotatedSegment[];
+  showTree?: boolean;
 };
 
 const VOICE_TEXT = [
@@ -73,7 +73,7 @@ function StripCell(props: {
   );
 }
 
-export function BinasphereView({ block, voices }: Props) {
+export function BinasphereView({ block, voices, showTree = true }: Props) {
   const trailer = `EXEC hymme ${block.voiceCount}x1/0>>${formatPattern(block.pattern, block.voiceCount)}`;
 
   return (
@@ -99,7 +99,7 @@ export function BinasphereView({ block, voices }: Props) {
             >
               voice {seg.voice}
             </div>
-            <AnnotatedView segment={seg} />
+            <AnnotatedView segment={seg} showTree={showTree} />
           </div>
         ))}
       </div>
